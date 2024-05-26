@@ -1,0 +1,453 @@
+let questions=
+[
+{
+        "numb": 121,
+        "question": "What is the purpose of the inner marker?",
+        "answer": "c) To indicate aircraft position in low visibility conditions",
+        "options": [
+            "a) To indicate distance from the threshold",
+            "b) To provide equipment functioning checks",
+            "c) To indicate aircraft position in low visibility conditions",
+            "d) To measure altitude"
+        ]
+    },
+    {
+        "numb": 122,
+        "question": "How are VOR radials produced?",
+        "answer": "a) By rotating antennas",
+        "options": [
+            "a) By rotating antennas",
+            "b) By stationary antennas",
+            "c) By directional antennas",
+            "d) By non-directional antennas"
+        ]
+    },
+    {
+        "numb": 123,
+        "question": "What are the primary power sources for aircraft electrical systems?",
+        "answer": "b) Alternators, generators, and external power",
+        "options": [
+            "a) Batteries and inverters",
+            "b) Alternators, generators, and external power",
+            "c) Transformers and rectifiers",
+            "d) Auxiliary power units and battery chargers"
+        ]
+    },
+    {
+        "numb": 124,
+        "question": "What are the two types of electricity produced in aircraft electrical systems?",
+        "answer": "b) Alternating current (AC) and direct current (DC)",
+        "options": [
+            "a) Static and dynamic",
+            "b) Alternating current (AC) and direct current (DC)",
+            "c) Magnetic and kinetic",
+            "d) Volatile and stable"
+        ]
+    },
+    {
+        "numb": 125,
+        "question": "What is the typical voltage of most aircraft direct current (DC) electrical systems?",
+        "answer": "b) 24 volts",
+        "options": [
+            "a) 120 volts",
+            "b) 24 volts",
+            "c) 480 volts",
+            "d) 12 volts"
+        ]
+    },
+    {
+        "numb": 126,
+        "question": "How do alternators differ from generators in aircraft electrical systems?",
+        "answer": "b) Alternators produce more constant electrical output at various engine speeds.",
+        "options": [
+            "a) Alternators produce alternating current, while generators produce direct current.",
+            "b) Alternators produce more constant electrical output at various engine speeds.",
+            "c) Alternators require higher engine RPM to produce rated output compared to generators.",
+            "d) Generators are more efficient in converting mechanical energy to electrical energy."
+        ]
+    },
+    {
+        "numb": 127,
+        "question": "What is the primary function of a battery in an aircraft electrical system?",
+        "answer": "a) To provide power for starting the engine",
+        "options": [
+            "a) To provide power for starting the engine",
+            "b) To supply electrical energy for passenger services",
+            "c) To regulate voltage fluctuations",
+            "d) To convert alternating current to direct current"
+        ]
+    },
+    {
+        "numb": 128,
+        "question": "What is the purpose of a master/battery switch in an aircraft?",
+        "answer": "b) To turn on or off the entire electrical system",
+        "options": [
+            "a) To control the engine ignition system",
+            "b) To turn on or off the entire electrical system",
+            "c) To regulate the output of the alternator",
+            "d) To switch between alternating current and direct current"
+        ]
+    },
+    {
+        "numb": 129,
+        "question": "Why might some aircraft have two batteries?",
+        "answer": "b) To provide redundancy and offset replacement times",
+        "options": [
+            "a) To increase voltage output",
+            "b) To provide redundancy and offset replacement times",
+            "c) To decrease electrical system complexity",
+            "d) To increase engine RPM"
+        ]
+    },
+    {
+        "numb": 130,
+        "question": "What happens when the master switch is turned to the ON position?",
+        "answer": "b) Electrical energy is provided to all electrical equipment circuits except the ignition system",
+        "options": [
+            "a) The electrical system is turned off",
+            "b) Electrical energy is provided to all electrical equipment circuits except the ignition system",
+            "c) The battery is disconnected from the electrical system",
+            "d) The generator is activated and provides power to the entire electrical system"
+        ]
+    },
+    {
+        "numb": 131,
+        "question": "What is a drawback of generator-powered systems?",
+        "answer": "d) They may experience rapid dimming of lights at low engine rpm",
+        "options": [
+            "a) They produce more consistent electrical output",
+            "b) They provide power at lower engine speeds",
+            "c) They require external power sources for starting",
+            "d) They may experience rapid dimming of lights at low engine rpm"
+        ]
+    },
+    {
+        "numb": 132,
+        "question": "What is the purpose of the alternator switch in an aircraft electrical system?",
+        "answer": "b) To exclude the alternator from the electrical system in case of failure",
+        "options": [
+            "a) To control the rate of charge to the battery",
+            "b) To exclude the alternator from the electrical system in case of failure",
+            "c) To regulate the voltage output of the generator",
+            "d) To activate non-essential electrical equipment"
+        ]
+    },
+    {
+        "numb": 133,
+        "question": "What happens when the alternator switch is in the OFF position?",
+        "answer": "b) The entire electrical load is placed on the battery",
+        "options": [
+            "a) The electrical load is placed on the generator",
+            "b) The entire electrical load is placed on the battery",
+            "c) All electrical equipment is turned off",
+            "d) The circuit breakers are activated"
+        ]
+    },
+    {
+        "numb": 134,
+        "question": "What is the function of a voltage regulator in an aircraft electrical system?",
+        "answer": "d) To stabilize the generator output",
+        "options": [
+            "a) To control the rate of charge to the battery",
+            "b) To protect circuits from electrical overload",
+            "c) To provide a common point for voltage distribution",
+            "d) To stabilize the generator output"
+        ]
+    },
+    {
+        "numb": 135,
+        "question": "What is the primary objective of aviation fuel systems?",
+        "answer": "c) To ensure uninterrupted fuel delivery to the engine under various conditions",
+        "options": [
+            "a) To deliver fuel to the engine at high pressure",
+            "b) To prevent fuel contamination during refueling operations",
+            "c) To ensure uninterrupted fuel delivery to the engine under various conditions",
+            "d) To reduce fuel volatility during flight maneuvers"
+        ]
+    },
+    {
+        "numb": 136,
+        "question": "What is the function of the auxiliary fuel pump in an aircraft?",
+        "answer": "a) To provide fuel for engine starting",
+        "options": [
+            "a) To provide fuel for engine starting",
+            "b) To boost fuel pressure during flight maneuvers",
+            "c) To regulate fuel flow to the engine",
+            "d) To reduce fuel volatility in the fuel tanks"
+        ]
+    },
+    {
+        "numb": 137,
+        "question": "How does an increase in temperature affect fuel volatility?",
+        "answer": "c) It increases volatility",
+        "options": [
+            "a) It reduces volatility",
+            "b) It has no effect on volatility",
+            "c) It increases volatility",
+            "d) It stabilizes volatility"
+        ]
+    },
+    {
+        "numb": 138,
+        "question": "What is the purpose of an alternator switch in an aircraft electrical system?",
+        "answer": "b) To exclude the alternator from the electrical system in the event of alternator failure",
+        "options": [
+            "a) To turn on or off the entire electrical system",
+            "b) To exclude the alternator from the electrical system in the event of alternator failure",
+            "c) To regulate the voltage output of the alternator",
+            "d) To switch between alternating current and direct current"
+        ]
+    },
+    {
+        "numb": 139,
+        "question": "What happens when the alternator half of the switch is turned to the OFF position?",
+        "answer": "c) The entire electrical load is placed on the battery",
+        "options": [
+            "a) The battery is disconnected from the electrical system",
+            "b) All non-essential electrical equipment is turned off",
+            "c) The entire electrical load is placed on the battery",
+            "d) The alternator output is increased"
+        ]
+    },
+    {
+        "numb": 140,
+        "question": "What is the purpose of a bus bar in an aircraft electrical system?",
+        "answer": "b) To connect the main electrical system to the equipment using electricity",
+        "options": [
+            "a) To regulate the voltage output",
+            "b) To connect the main electrical system to the equipment using electricity",
+            "c) To protect circuits and equipment from electrical overload",
+            "d) To distribute spare fuses throughout the system"
+        ]
+    },
+    {
+        "numb": 141,
+        "question": "What is the function of fuses or circuit breakers in the electrical system?",
+        "answer": "c) To protect circuits and equipment from electrical overload",
+        "options": [
+            "a) To regulate the voltage output",
+            "b) To control the rate of charge to the battery",
+            "c) To protect circuits and equipment from electrical overload",
+            "d) To monitor the performance of the electrical system"
+        ]
+    },
+    {
+        "numb": 142,
+        "question": "How does a circuit breaker differ from a fuse?",
+        "answer": "b) Circuit breakers can be manually reset, while fuses need to be replaced.",
+        "options": [
+            "a) Circuit breakers are used for DC systems, while fuses are used for AC systems.",
+            "b) Circuit breakers can be manually reset, while fuses need to be replaced.",
+            "c) Circuit breakers protect against short circuits, while fuses protect against overloads.",
+            "d) Circuit breakers have a lower amperage limit than fuses."
+        ]
+    },
+    {
+        "numb": 143,
+        "question": "What is the function of a voltage regulator in an aircraft electrical system?",
+        "answer": "b) To stabilize the generator or alternator electrical output",
+        "options": [
+            "a) To control the rate of charge to the battery",
+            "b) To stabilize the generator or alternator electrical output",
+            "c) To monitor the performance of the electrical system",
+            "d) To distribute electrical power throughout the system"
+        ]
+    },
+    {
+        "numb": 144,
+        "question": "How is the performance of the aircraft electrical system monitored?",
+        "answer": "a) By using ammeters to measure the charging rate of the battery",
+        "options": [
+            "a) By using ammeters to measure the charging rate of the battery",
+            "b) By checking the voltage output of the alternator",
+            "c) By consulting the AFM or POH for appropriate action",
+            "d) By observing warning lights for system malfunctions"
+        ]
+    },
+    {
+        "numb": 145,
+        "question": "What does a full-scale minus deflection on an ammeter indicate?",
+        "answer": "a) A malfunction of the alternator/generator",
+        "options": [
+            "a) A malfunction of the alternator/generator",
+            "b) A malfunction of the voltage regulator",
+            "c) Adequate charging rate of the battery",
+            "d) Excessive current drawn from the battery"
+        ]
+    },
+    {
+        "numb": 146,
+        "question": "What is the primary purpose of the Instrument Landing System (ILS)?",
+        "answer": "b) To provide lateral and vertical guidance to aircraft during approach and landing",
+        "options": [
+            "a) To guide the pilot during takeoff",
+            "b) To provide lateral and vertical guidance to aircraft during approach and landing",
+            "c) To assist with aircraft taxiing on the runway",
+            "d) To communicate with air traffic control towers"
+        ]
+    },
+    {
+        "numb": 147,
+        "question": "What distinguishes an Instrument Runway from a Non-Instrument Runway?",
+        "answer": "b) The type of approach procedures allowed",
+        "options": [
+            "a) The length of the runway",
+            "b) The type of approach procedures allowed",
+            "c) The presence of visual aids",
+            "d) The number of aircraft allowed to land simultaneously"
+        ]
+    },
+    {
+        "numb": 148,
+        "question": "What is the purpose of a Precision Runway (P) category?",
+        "answer": "a) To allow aircraft operations with a decision height",
+        "options": [
+            "a) To allow aircraft operations with a decision height",
+            "b) To provide horizontal navigation",
+            "c) To enable visual approach procedures",
+            "d) To serve as a visual aiming point for landing aircraft"
+        ]
+    },
+    {
+        "numb": 149,
+        "question": "Which ground installations are part of the ILS system?",
+        "answer": "c) Glide Path and Ground Localizer antennas",
+        "options": [
+            "a) Glide Path and Marker Beacons",
+            "b) Localizer and Glide Path antennas",
+            "c) Glide Path and Ground Localizer antennas",
+            "d) Marker Beacons and ILS indicator"
+        ]
+    },
+    {
+        "numb": 150,
+        "question": "How does the Ground Localizer antenna guide the aircraft?",
+        "answer": "b) By transmitting signals in the opposite direction of the runway centerline",
+        "options": [
+            "a) By transmitting signals in the direction of the runway centerline",
+            "b) By transmitting signals in the opposite direction of the runway centerline",
+            "c) By transmitting UHF signals vertically",
+            "d) By transmitting VHF signals horizontally"
+        ]
+    },
+    {
+        "numb": 151,
+        "question": "What is the purpose of the Glide Path antenna?",
+        "answer": "b) To provide vertical navigation",
+        "options": [
+            "a) To provide horizontal navigation",
+            "b) To provide vertical navigation",
+            "c) To enable cross-check of the aircraft's height",
+            "d) To guide the aircraft to the runway threshold"
+        ]
+    },
+    {
+        "numb": 152,
+        "question": "How does the ILS indicator in the cockpit assist the pilot?",
+        "answer": "c) By providing lateral and vertical guidance cues",
+        "options": [
+            "a) By displaying the aircraft's speed",
+            "b) By activating the runway lights",
+            "c) By providing lateral and vertical guidance cues",
+            "d) By communicating with air traffic control towers"
+        ]
+    },
+    {
+        "numb": 153,
+        "question": "How does the Localizer antenna indicate the direction for the aircraft to go?",
+        "answer": "a) By transmitting different frequency modulations",
+        "options": [
+            "a) By transmitting different frequency modulations",
+            "b) By overlapping signals at the center",
+            "c) By emitting a continuous tone",
+            "d) By activating the aircraft's autopilot"
+        ]
+    },
+    {
+        "numb": 154,
+        "question": "Where is the Glide Path antenna located in relation to the runway?",
+        "answer": "c) On one side of the runway, about 300m from the end",
+        "options": [
+            "a) At the beginning of the runway",
+            "b) At the midpoint of the runway",
+            "c) On one side of the runway, about 300m from the end",
+            "d) At the end of the runway"
+        ]
+    },
+    {
+        "numb": 155,
+        "question": "What frequency band does the Glide Path operate in?",
+        "answer": "b) UHF",
+        "options": [
+            "a) VHF",
+            "b) UHF",
+            "c) HF",
+            "d) Microwave"
+        ]
+    },
+    {
+        "numb": 156,
+        "question": "How does the Glide Path indicate to the pilot to descend?",
+        "answer": "d) By energizing the horizontal needle of the ILS indicator",
+        "options": [
+            "a) By transmitting a continuous tone",
+            "b) By emitting signals with different frequency modulations",
+            "c) By activating a blue lamp in the cockpit",
+            "d) By energizing the horizontal needle of the ILS indicator"
+        ]
+    },
+    {
+        "numb": 157,
+        "question": "What is the purpose of Marker Beacons in the ILS system?",
+        "answer": "c) To provide height, distance, and equipment functioning checks to aircraft",
+        "options": [
+            "a) To provide lateral guidance to the pilot",
+            "b) To indicate the direction of the runway",
+            "c) To provide height, distance, and equipment functioning checks to aircraft",
+            "d) To activate the glide path antenna"
+        ]
+    },
+    {
+        "numb": 158,
+        "question": "How is the outer marker identified by the pilot?",
+        "answer": "d) By a Morse-style dash of a 400 Hz tone",
+        "options": [
+            "a) By a red lamp that flashes in the cockpit",
+            "b) By a white lamp that flashes in the cockpit",
+            "c) By a blue lamp that flashes in the cockpit",
+            "d) By a Morse-style dash of a 400 Hz tone"
+        ]
+    },
+    {
+        "numb": 159,
+        "question": "Where should the inner marker be located?",
+        "answer": "a) At the beginning of the runway",
+        "options": [
+            "a) At the beginning of the runway",
+            "b) At the midpoint of the runway",
+            "c) So as to indicate in low visibility conditions",
+            "d) At the end of the runway"
+        ]
+    },
+    {
+        "numb": 160,
+        "question": "What does VOR stand for?",
+        "answer": "c) VHF Omni-directional Range",
+        "options": [
+            "a) Very Omnidirectional Range",
+            "b) Visual Omnidirectional Range",
+            "c) VHF Omni-directional Range",
+            "d) Vertical Omni-directional Range"
+        ]
+    },
+    {
+        "numb": 161,
+        "question": "How does the VOR ground antenna transmit signals?",
+        "answer": "c) From both stationary and rotating antennas simultaneously",
+        "options": [
+            "a) Only from a single stationary antenna",
+            "b) Only from rotating antennas",
+            "c) From both stationary and rotating antennas simultaneously"
+        ]
+    }
+]

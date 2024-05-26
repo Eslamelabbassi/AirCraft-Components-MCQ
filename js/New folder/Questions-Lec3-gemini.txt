@@ -1,0 +1,436 @@
+
+
+let questions=
+ 
+[
+  {
+    "numb": 1,
+    "question": "Which of the following is a primary difference between hydraulic and pneumatic fluid power systems?",
+    "answer": "A. Hydraulic systems use liquid, pneumatics use gas",
+    "options": [
+      "A. Hydraulic systems use liquid, pneumatics use gas",
+      "B. Hydraulic systems are for primary flight controls, pneumatics for secondary",
+      "C. Pneumatics are more powerful than hydraulics",
+      "D. Hydraulics are found only in older aircraft"
+    ]
+  },
+  {
+    "numb": 2,
+    "question": "Pascal's Law is a fundamental principle in hydraulics. It states that:",
+    "answer": "C. Pressure applied to a confined fluid transmits equally in all directions",
+    "options": [
+      "A. Pressure in a fluid system depends on the container's shape",
+      "B. Increasing fluid velocity will increase the pressure",
+      "C. Pressure applied to a confined fluid transmits equally in all directions",
+      "D. Fluid pressure is directly proportional to the fluid's viscosity"
+    ]
+  },
+  {
+    "numb": 3,
+    "question": "A key requirement for hydraulic fluids is:",
+    "answer": "A. High flash and fire points",
+    "options": [
+      "A. High flash and fire points",
+      "B. High compressibility",
+      "C. Tendency to foam easily",
+      "D. Reactivity with system seals" 
+    ]
+  },
+  { 
+    "numb": 4,
+    "question": "Which of the following aircraft systems would NOT typically use hydraulic power?",
+    "answer": "B. Cabin pressurization",
+    "options": [
+      "A. Rudder",
+      "B. Cabin pressurization",
+      "C. Slats",
+      "D. Nosewheel steering"
+    ]
+  },
+  {
+    "numb": 5,
+    "question": "A significant advantage of hydraulic systems in aircraft is:",
+    "answer": "C. They can generate high forces despite being compact",
+    "options": [
+      "A. They are extremely lightweight",
+      "B. They require minimal maintenance", 
+      "C. They can generate high forces despite being compact", 
+      "D. They are immune to leaks"
+    ]
+  },
+  {
+    "numb": 6,
+    "question": "The component that provides a supply of pressurized fluid in a hydraulic system is the:",
+    "answer": "C. Pump",
+    "options": [
+      "A. Reservoir",
+      "B. Accumulator",
+      "C. Pump",
+      "D. Actuator"
+    ]
+  },
+  {
+    "numb": 7,
+    "question": "Which type of hydraulic pump uses intermeshing gears to move fluid?",
+    "answer": "A. Gear pump",
+    "options": [
+        "A. Gear pump",
+        "B. Piston pump",
+        "C. Vane pump",
+        "D. Gerotor pump"
+    ]
+  },
+  {
+      "numb": 8,
+      "question": "A selector valve in a hydraulic system is primarily used to:",
+      "answer": "B. Control the direction of fluid flow",
+      "options": [
+          "A. Maintain constant system pressure",
+          "B. Control the direction of fluid flow",
+          "C. Store fluid under pressure",
+          "D. Filter out contaminants in the fluid"
+      ]
+  },
+  {
+      "numb": 9,
+      "question": "The component in a hydraulic system that acts as a 'pressure buffer' is called a/an:",
+      "answer": "A. Accumulator",
+      "options": [
+          "A. Accumulator",
+          "B. Check valve",
+          "C. Actuator",
+          "D. Selector valve"
+      ]
+  },
+  {
+      "numb": 10,
+      "question": "Which type of actuator would be used to rotate a control surface on an aircraft?",
+      "answer": "A. Rotary actuator",
+      "options": [
+          "A. Rotary actuator",
+          "B. Single-acting linear actuator",
+          "C. Double-acting linear actuator",
+          "D. Hydraulic fuse"
+      ]
+  },  
+  {
+    "numb": 11,
+    "question": "Which type of hydraulic fluid is typically dyed red for identification purposes?",
+    "answer": "B. Mineral-base fluid",
+    "options": [
+      "A. Vegetable-base fluid",
+      "B. Mineral-base fluid",
+      "C. Synthetic fluid (Skydrol)",
+      "D. None of the above"
+    ]
+  },
+  {
+    "numb": 12,
+    "question": "If a hydraulic system experiences unusually high operating temperatures, what could be a potential consequence for the hydraulic fluid?",
+    "answer": "B. Reduced chemical stability",
+    "options": [
+      "A. Increased viscosity",
+      "B. Reduced chemical stability",
+      "C. Improved lubrication properties",
+      "D. Reduced risk of foaming"
+    ]
+  },
+  {
+    "numb": 13,
+    "question": "A hydraulic system with multiple pumps and redundant flow paths is likely designed to:",
+    "answer": "C. Ensure reliability in case of failures",
+    "options": [
+      "A. Minimize weight",
+      "B. Reduce complexity",
+      "C. Ensure reliability in case of failures",
+      "D. Increase the maximum pressure of the system"
+    ]
+  },
+  {
+    "numb": 14,
+    "question": "What is the purpose of a hydraulic fuse in a system?",
+    "answer": "C. Isolate a section of the system in case of a leak",
+    "options": [
+      "A.  Maintain steady system pressure",
+      "B.  Prevent excessive pressure buildup in a specific line",
+      "C. Isolate a section of the system in case of a leak",
+      "D.  Direct fluid flow to different actuators"
+    ]
+  },
+  {
+    "numb": 15,
+    "question": "The two main types of piston pumps used in hydraulic systems are:",
+    "answer": "B. Axial piston pump and radial piston pump",
+    "options": [
+      "A. Vane pump and gear pump",
+      "B. Axial piston pump and radial piston pump",
+      "C. Open-center pump and closed-center pump",
+      "D. Single-acting pump and double-acting pump"
+    ]
+  },
+  {
+    "numb": 16,
+    "question": "A bent-axis piston pump operates by:",
+    "answer": "C. Pistons moving against an angled swash plate",
+    "options": [
+      "A. Using intermeshing gears to move fluid",
+      "B. Rotating cylinders with pistons arranged radially",
+      "C. Pistons moving against an angled swash plate",
+      "D. Changing the size of a sealed fluid chamber"
+    ]
+  },
+    {
+        "numb": 17,
+        "question": "Which type of valve would be used to ensure a landing gear actuator extends only after the gear doors are fully opened?",
+        "answer": "B. Sequence valve",
+        "options": [
+            "A. Check valve",
+            "B. Sequence valve",
+            "C. Pressure relief valve",
+            "D. Selector valve"
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "What advantage does a closed-center selector valve offer over an open-center selector valve?",
+        "answer": "C. It holds pressure in an actuator when not in use",
+        "options": [
+            "A. It allows smoother flow transitions",
+            "B. It reduces system operating temperature",
+            "C. It holds pressure in an actuator when not in use",
+            "D. It requires less powerful pumps" 
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "The expandable section of an accumulator is typically pre-charged with:",
+        "answer": "C. Nitrogen gas",
+        "options": [
+            "A. Hydraulic fluid",
+            "B. Oxygen",
+            "C. Nitrogen gas",
+            "D. Compressed air"
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "In a hydraulic system, what is a common symptom of air contamination in the hydraulic fluid?",
+        "answer": "B. Spongy or erratic actuator movement",
+        "options": ["A. Overheating of the fluid", "B. Spongy or erratic actuator movement"]
+            
+
+    },
+
+    {
+        "numb": 21,
+        "question": "What is one of the main reasons hydraulic fluids must be incompressible?",
+        "answer": "C. To transmit force effectively ",
+        "options": [
+            "A. To prevent corrosion in the system",
+            "B. To improve lubrication of components",
+            "C. To transmit force effectively ",
+            "D. To reduce the risk of foaming"
+        ]
+    },
+
+    {
+        "numb": 22,
+        "question": "In a hydraulic system using a variable displacement pump, what happens to the pump's fluid output when the system pressure reaches its desired level?",
+        "answer": "A. The pump's output decreases",
+        "options": [
+            "A. The pump's output decreases",
+            "B. The pump's output increases",
+            "C. The pump's output stays the same",
+            "D. The pump reverses flow direction"
+        ]
+    },
+
+    {
+        "numb": 23,
+        "question": "A particular hydraulic system uses a reservoir with a vented cap. What could this indicate about the reservoir's design?",
+        "answer": "B. It is likely a non-pressurized reservoir",
+        "options": [
+            "A. It is designed for a low-pressure system",
+            "B. It is likely a non-pressurized reservoir", 
+            "C. It is designed to handle very high temperatures",
+            "D. It indicates a potential maintenance issue" 
+        ]
+    },
+
+    {
+        "numb": 24,
+        "question": "Which type of hydraulic pump is known for its ability to operate at high speeds and pressures?",
+        "answer": "B. Piston pump",
+        "options": [
+            "A. Gear pump",
+            "B. Piston pump",
+            "C. Vane pump", 
+            "D. Gerotor pump" 
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "A gear pump is considered a:",
+        "answer": "A. Constant displacement pump",
+        "options": [
+            "A. Constant displacement pump",
+            "B. Variable displacement pump",
+            "C. Reciprocating pump",
+            "D. Centrifugalual pump"
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "What is the purpose of a pressure relief valve in a hydraulic system?",
+        "answer": "C. To prevent excessive pressure buildup that could damage components",
+        "options": [
+            "A. To maintain a constant flow rate",
+            "B. To filter out contaminants", 
+            "C. To prevent excessive pressure buildup that could damage components",
+            "D. To direct fluid to different actuators"
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "If a hydraulic actuator is moving too slowly, what could be a possible cause?",
+        "answer": "D. Low fluid level in the reservoir",
+        "options": [
+            "A. Excessive pressure in the system",
+            "B. A malfunctioning selector valve",
+            "C. Worn seals in the actuator",
+            "D. Low fluid level in the reservoir"
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "What type of valve prevents fluid from flowing in the reverse direction?",
+        "answer": "A. Check valve",
+        "options": [
+            "A. Check valve",
+            "B. Accumulator",
+            "C. Pressure relief valve",
+            "D. Priority valve" 
+        ]
+    },
+    {
+        "numb": 29,
+        "question": "Which component is responsible for removing solid contaminants from hydraulic fluid?",
+        "answer": "C. Filter",
+        "options": [
+            "A. Reservoir",
+            "B. Selector valve",
+            "C. Filter",
+            "D. Accumulator"
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "If the pressure gauge of a hydraulic system shows a steady pressure reading even when an actuator is being operated, what might this indicate?",
+        "answer": "D. A faulty pressure gauge or a system malfunction ",
+        "options": [
+            "A. The pump is not generating enough pressure",
+            "B. There is a restriction in the flow path",
+            "C. The hydraulic fluid viscosity is too low",
+            "D. A faulty pressure gauge or a system malfunction " 
+        ]
+    },
+    {
+        "numb": 31,
+        "question": "The force produced by a hydraulic actuator is determined by:",
+        "answer": "C. Pressure of the fluid and the piston area",
+        "options": [
+            "A. Fluid flow rate alone",
+            "B. Piston area alone",
+            "C. Pressure of the fluid and the piston area",
+            "D. Pump speed and fluid type"
+        ]
+    },
+    {
+        "numb": 32,
+        "question": "A hydraulic system's reservoir serves the primary functions of:",
+        "answer": "D. Storing fluid, allowing for thermal expansion, and separating air from fluid",
+        "options": [
+            "A. Pressurizing the fluid and filtering contaminants",
+            "B. Controlling fluid direction and preventing leaks",
+            "C. Accumulating pressure and reducing noise",
+            "D. Storing fluid, allowing for thermal expansion, and separating air from fluid"
+        ]
+    },
+    {
+        "numb": 33,
+        "question": "Which hydraulic fluid type offers the best fire resistance?",
+        "answer": "C. Synthetic fluid (e.g., Skydrol)",
+        "options": [
+            "A. Vegetable-base fluid",
+            "B. Mineral-base fluid",
+            "C. Synthetic fluid (e.g., Skydrol)",
+            "D. All hydraulic fluids have similar fire resistance"
+        ]
+    },
+    {
+        "numb": 34,
+        "question": "What is a potential drawback of using synthetic hydraulic fluids?",
+        "answer": "A. Compatibility issues with certain system seals",
+        "options": [
+            "A. Compatibility issues with certain system seals",
+            "B. Lower operating temperature range",
+            "C. High compressibility",
+            "D. Tendency to cause corrosion"
+        ]
+    }, 
+    {
+        "numb": 35,
+        "question": "In a hydraulic system, cavitation can occur if:",
+        "answer": "B. The fluid pressure drops below its vapor pressure",
+        "options": [
+            "A. The fluid viscosity becomes too high",
+            "B. The fluid pressure drops below its vapor pressure",
+            "C. The pump output exceeds system requirements",
+            "D. Air enters the system" 
+        ]
+    },
+    {
+        "numb": 36,
+        "question": "What is a symptom of cavitation in a hydraulic pump?",
+        "answer": "D. Noisy operation and potential component damage",
+        "options": [
+            "A. Increased fluid flow rate",
+            "B. Smooth and quiet operation",
+            "C. Reduced system pressure",
+            "D. Noisy operation and potential component damage" 
+        ]
+    },
+    {
+        "numb": 37,
+        "question": "Which of these is a common way to minimize air contamination in a hydraulic system?",
+        "answer": "C. Proper system bleeding procedures",
+        "options": [
+            "A. Using high-viscosity hydraulic fluid",
+            "B. Operating the system at very low temperatures",
+            "C. Proper system bleeding procedures",
+            "D. Installing the reservoir below the level of the pump"
+        ]
+    },
+    {
+        "numb": 38,
+        "question": "A hydraulic system is experiencing overheating. After basic checks, what component is most likely to be the cause?",
+        "answer": "B. Worn internal pump components",
+        "options": [
+            "A. A stuck open selector valve",
+            "B. Worn internal pump components",
+            "C. Clogged hydraulic filter",
+            "D. Low fluid viscosity"
+        ]
+    },
+    {
+        "numb": 39,
+        "question": "Which type of actuator is best suited for applications requiring precise positioning?",
+        "answer": "C. Servo-controlled actuator",
+        "options": [
+            "A. Single-acting cylinder",
+            "B. Double-acting cylinder",
+            "C. Servo-controlled actuator",
+            "D. Rotary actuator"
+        ]
+    }
+]

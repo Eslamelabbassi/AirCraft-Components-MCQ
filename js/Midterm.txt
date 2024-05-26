@@ -1,0 +1,245 @@
+
+let questions=[
+{
+    "numb": 1,
+    "question": ".......control systems are wing flaps and trim systems.",
+    "answer": "Secondary",
+    "options": ["Secondary", "Primary", "Wing", "Empennage"]
+},
+{
+    "numb": 2,
+    "question": "The........includes the entire tail group, consisting of fixed surfaces such as the vertical stabilizer and the horizontal stabilizer.",
+    "answer": "Empennage",
+    "options": ["Empennage", "Fuselage", "Wing", "Elevator"]
+},
+{
+    "numb": 3,
+    "question": "........control roll about the longitudinal axis.",
+    "answer": "Ailerons",
+    "options": ["Ailerons", "Elevator", "Rudder", "Flaps"]
+},
+{
+    "numb": 4,
+    "question": "The.........is used to counteract adverse yaw.",
+    "answer": "Rudder",
+    "options": ["Rudder", "Ailerons", "Elevator", "Ruddervators"]
+},
+{
+    "numb": 5,
+    "question": "The.........controls pitch about the lateral axis.",
+    "answer": "Elevator",
+    "options": ["Elevator", "Rudder", "Ruddervators", "Flaps"]
+},
+{
+    "numb": 6,
+    "question": "the elevator is connected to the control.........in the cockpit by a series of  mechanical linkages.",
+    "answer": "Column",
+    "options": ["Column", "Wheel", "Pedal", "Switch"]
+},
+{
+    "numb": 7,
+    "question": "The.........controls movement of the airplane about its vertical axis.",
+    "answer": "Rudder",
+    "options": ["Rudder", "Ailerons", "Elevator", "Wing"]
+},
+{
+    "numb": 8,
+    "question": "The movable surfaces, which are usually called........., are connected through a special linkage that allows the control wheel to move both surfaces simultaneously.",
+    "answer": "Ruddervators",
+    "options": ["Ruddervators", "Elevator", "Rudder", "Flaps"]
+},
+{
+    "numb": 9,
+    "question": ".........Is a tube in an aircraft control system that transmits a torsional force from the  operating control to the control surface.",
+    "answer": "Torque tubes",
+    "options": ["Torque tubes", "Hydraulic tubes", "Force tube", "Fluid tube"]
+},
+{
+    "numb": 10,
+    "question": ".........are often used on parked aircraft with mechanical systems to  protect the control surfaces and linkages from damage from wind",
+    "answer": "Gust locks",
+    "options": ["Gust locks", "Double lever", "Fairlead", "Tension cables"]
+},
+{
+    "numb": 11,
+    "question": "A.........in an aircraft control system used to change the direction of  motion.",
+    "answer": "Double lever",
+    "options": ["Double lever", "Fairlead", "Tension cables", "Mechanical linkage"]
+},
+{
+    "numb": 12,
+    "question": "A.........is a device to guide a line, rope or cable around an object, out of  the way or to stop it from moving laterally",
+    "answer": "Fairlead",
+    "options": ["Fairlead", "Double lever", "Tension cables", "Mechanical linkage"]
+},
+{
+    "numb": 13,
+    "question": ".........It uses a collection of parts such as  rods, tension cables, pulleys, counterweights, and sometimes chains to  transmit the forces applied from the cockpit controls directly to the control  surfaces",
+    "answer": "Mechanical Flight Control System",
+    "options": ["Mechanical Flight Control System", "Hydro-Mechanical Systems", "Fly-By-Wire System", "Digital Fly-By-Wire"]
+},
+{
+    "numb": 14,
+    "question": ".........allow a compromise between high cruising speed and low landing  speed, because they may be extended when needed, and retracted into the  wing’s structure when not needed.",
+    "answer": "Flaps",
+    "options": ["Flaps", "Rudder", "Leading edge", "Spoilers"]
+},
+{
+    "numb": 15,
+    "question": ".........devices are great instruments to increase the critical angle of  attack and, therefore, delay the stall",
+    "answer": "Leading edge",
+    "options": ["Leading edge", "Flaps", "Rudder", "Spoilers"]
+},
+{
+    "numb": 16,
+    "question": "high-drag devices called.........are deployed from the wings to spoil the  smooth airflow, reducing lift and increasing drag.",
+    "answer": "Spoilers",
+    "options": ["Spoilers", "Leading edge", "Flaps", "Rudder"]
+},
+{
+    "numb": 17,
+    "question": "Three.........fitted with sensors are fitted in the aircraft to sense  movement changes in the pitch, roll and yaw axes.",
+    "answer": "Gyroscopes",
+    "options": ["Gyroscopes", "Accelerometer", "Flowmeter", "Pitot tube"]
+},
+{
+    "numb": 18,
+    "question": "When there are three channels being used this is known as..........",
+    "answer": "Triplex",
+    "options": ["Triplex", "Quadruplex", "Duplex", "Multi"]
+},
+{
+    "numb": 19,
+    "question": ".........is the temperature at which a liquid gives off vapor in sufficient  quantity to ignite momentarily when a flame is applied.",
+    "answer": "Flash Point",
+    "options": ["Flash Point", "Fire Point", "Evaporate point", "Boiling point"]
+},
+{
+    "numb": 20,
+    "question": ".........is the temperature at which a substance gives off vapor in  sufficient quantity to ignite and continue to burn when exposed to a spark or  flame.",
+    "answer": "Fire Point",
+    "options": ["Flash Point", "Fire Point", "Evaporate point", "Boiling point"]
+},
+{
+    "numb": 21,
+    "question": "All.........consist of a high strength container divided by some form  of movable partition into toe sections, or compartments.",
+    "answer": "Accumulators",
+    "options": ["Accumulators", "Reservoirs", "Actuators", "Pumps"]
+},
+{
+    "numb": 22,
+    "question": ".........are used to move an object or apply a force in a straight  line",
+    "answer": "Linear actuators",
+    "options": ["Linear actuators", "Rotary actuators", "Hydraulic actuators", "Mechanical actuators"]
+},
+{
+    "numb": 23,
+    "question": "......... pump consists of a number of pistons which are caused to  reciprocate by the relative rotation of an inclined plate or by angling the  piston block.",
+    "answer": "Axial piston",
+    "options": ["Axial piston", "Swash plate", "Plunger pumps", "Diaphragm pumps"]
+},
+{
+    "numb": 24,
+    "question": ".........pump It consist of a pump housing in which a pair of  precisely machined meshing gears runs with minimal radial and axial  clearance.",
+    "answer": "External gear",
+    "options": ["External gear", "Internal gear", "Gerotor", "Pump lobe"]
+},
+{
+    "numb": 25,
+    "question": "Landing gear employing a rear-mounted wheel is called.........or a  tailwheel/dragger",
+    "answer": "Conventional",
+    "options": ["Conventional", "Tricycle", "Tandem landing", "Pontoons"]
+},
+{
+    "numb": 26,
+    "question": "Landing gear employing a front-mounted wheel is called.........landing  gear",
+    "answer": "Tricycle",
+    "options": ["Tricycle", "Tandem landing", "Pontoons", "Conventional"]
+},
+{
+    "numb": 27,
+    "question": "In hydraulic systems When a sensor detects excessive pressure, a.........Valve within the pump opens, and hydraulic pressure routes back to the  reservoir",
+    "answer": "Relief",
+    "options": ["Relief", "Direction control", "Reduce", "Check"]
+},
+{
+    "numb": 28,
+    "question": "Each gear has two.........-one dedicated to extension and one  dedicated to retraction",
+    "answer": "Limit switch",
+    "options": ["Limit switch", "Relief valve", "Pressure gage", "Accumulator"]
+},
+{
+    "numb": 29,
+    "question": "Most airplanes with retractable landing gear have a gear warning........that  will sound when configuring the airplane for landing",
+    "answer": "Horn",
+    "options": ["Horn", "Alarm", "Siren", "Buzzer"]
+},
+{
+    "numb": 30,
+    "question": "........are built-in components of a gear retraction system  and are operated automatically by the gear retraction system",
+    "answer": "Mechanical down-locks",
+    "options": ["Mechanical down-locks", "Mechanical linkage", "Safety switch", "Mechanical mechanism"]
+},
+{
+    "numb": 31,
+    "question": "A landing gear..........., sometimes referred to as a squat switch, is  usually mounted in a bracket on one of the main gear shock struts",
+    "answer": "Safety switch",
+    "options": ["Safety switch", "Ground locks", "Mechanical linkage", "Mechanical mechanism"]
+},
+{
+    "numb": 32,
+    "question": "Hydraulic pressure for emergency operation of the landing gear doesn't come  from........depending on the design of the airplane",
+    "answer": "Main hydraulic pump",
+    "options": ["Main hydraulic pump", "Auxiliary hand pump", "Accumulator", "Electrically powered hydraulic pump"]
+},
+{
+    "numb": 33,
+    "question": "In.............airplanes The gravity-feed system utilizes the force of gravity  to transfer the fuel from the tanks to the engine",
+    "answer": "High-wing",
+    "options": ["High-wing", "Low-wing", "Mid-wing", "Shoulder wing"]
+},
+{
+    "numb": 34,
+    "question": "The..............also known as a boost pump, provides added reliability  to the fuel system",
+    "answer": "Auxiliary pump",
+    "options": ["Auxiliary pump", "Main hydraulic pump", "Accumulator", "Electrically powered hydraulic pump"]
+},
+{
+    "numb": 35,
+    "question": "The fuel.........allows selection of fuel from various tanks",
+    "answer": "Selector Valve",
+    "options": ["Selector Valve", "Direction Control Valve", "Check Valve", "Relief Valve"]
+},
+{
+    "numb": 36,
+    "question": "The fuel passes through a.............which removes any moisture and  other sediments in the system",
+    "answer": "Fuel Strainer",
+    "options": ["Fuel Strainer", "Sumps", "Drains", "Pump"]
+},
+{
+    "numb": 37,
+    "question": "A..........is a low point in a fuel system and/or fuel tank",
+    "answer": "Sump",
+    "options": ["Sump", "Fuel Strainer", "Drains", "Pump"]
+},
+{
+    "numb": 38,
+    "question": "The.........is used to draw fuel from the tanks to vaporize fuel directly  into the cylinders prior to starting the engine",
+    "answer": "Fuel primer",
+    "options": ["Fuel primer", "Fuel heater", "Fuel Strainer", "Fuel Pump"]
+},
+{
+    "numb": 39,
+    "question": "The fuel.........indicate the amount of fuel measured by a sensing  unit in each fuel tank and is displayed in gallons or pounds",
+    "answer": "Quantity gauges",
+    "options": ["Quantity gauges", "Flow gauges", "Pressure gage", "Temperature gauge"]
+},
+{
+    "numb": 40,
+    "question": "Fuel.........indicate the amount of fuel flowing through the system",
+    "answer": "Flow gauges",
+    "options": ["Flow gauges", "Quantity gauges", "Pressure gage", "Temperature gauge"]
+}
+]
+
+

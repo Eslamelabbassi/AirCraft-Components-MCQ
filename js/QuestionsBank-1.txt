@@ -1,0 +1,358 @@
+let questions=[
+
+    {
+        "numb": 41,
+        "question": "Which statement accurately describes the role of an aircraft powerplant?",
+        "answer": "The powerplant provides mechanical force to power the aircraft and associated accessories necessary for flight.",
+        "options": ["The powerplant provides mechanical force to operate only the engine itself.",
+                    "The powerplant provides mechanical force to power the aircraft and associated accessories necessary for flight.",
+                    "The powerplant is solely responsible for monitoring and managing the aircraft systems.",
+                    "The powerplant is used for communication between the pilot and ground control."]
+    },
+    {
+        "numb": 42,
+        "question": "What is the most common type of powerplant in general aviation?",
+        "answer": "Reciprocating engine",
+        "options": ["Gas-turbine engine",
+                    "Reciprocating engine",
+                    "Hybrid engine",
+                    "Electric engine"]
+    },
+    {
+        "numb": 43,
+        "question": "How are reciprocating engines classified?",
+        "answer": "By their altitude capability",
+        "options": ["By their fuel consumption rate",
+                    "By the number of cylinders they have",
+                    "By their speed of operation",
+                    "By their altitude capability"]
+    },
+    {
+        "numb": 44,
+        "question": "Which of the following is NOT a method of classifying reciprocating engines?",
+        "answer": "Cylinder arrangement relative to the wings",
+        "options": ["Operating cycle (two or four)",
+                    "Method of cooling (liquid or air)",
+                    "Cylinder arrangement relative to the wings",
+                    "Cylinder arrangement relative to the crankshaft"]
+    },
+    {
+        "numb": 45,
+        "question": "What is the purpose of a cowling in an aircraft?",
+        "answer": "To improve aerodynamics and reduce drag",
+        "options": ["To provide extra insulation for the engine",
+                    "To improve aerodynamics and reduce drag",
+                    "To house the pilot's instruments",
+                    "To separate the cabin from the engine"]
+    },
+    {
+        "numb": 46,
+        "question": "What is the source of chemical energy in reciprocating engines?",
+        "answer": "Fuel",
+        "options": ["Mechanical energy",
+                    "Electrical energy",
+                    "Fuel",
+                    "Hybrid systems"]
+    },
+    {
+        "numb": 47,
+        "question": "Where are reciprocating engines typically mounted in an aircraft?",
+        "answer": "On the firewall",
+        "options": ["Under the wings",
+                    "On top of the fuselage",
+                    "Behind the cabin",
+                    "On the firewall"]
+    },
+    {
+        "numb": 48,
+        "question": "What is the role of turbo/superchargers in reciprocating engines?",
+        "answer": "To increase performance limitations",
+        "options": ["To increase performance limitations",
+                    "To reduce engine noise",
+                    "To provide backup power",
+                    "To assist in engine cooling"]
+    },
+    {
+        "numb": 49,
+        "question": "Which statement accurately describes gas-turbine engines?",
+        "answer": "They are constructed differently from reciprocating engines and require different instrumentation and operating characteristics.",
+        "options": ["They share operating characteristics with reciprocating engines and have similar construction.",
+                    "They require the same instrumentation and operating characteristics as reciprocating engines.",
+                    "They are constructed differently from reciprocating engines and require different instrumentation and operating characteristics.",
+                    "They are primarily used in general aviation."]
+    },
+    {
+        "numb": 50,
+        "question": "What is the purpose of the firewall in an aircraft?",
+        "answer": "To prevent fire from spreading from the engine to the cabin",
+        "options": ["To prevent fire from spreading from the engine to the cabin",
+                    "To improve aerodynamics",
+                    "To house the engine's fuel",
+                    "To provide structural support to the wings"]
+    },
+    {
+        "numb": 51,
+        "question": "What is the primary powerplant used in general aviation?",
+        "answer": "Reciprocating engines",
+        "options": ["Turbine engines",
+                    "Reciprocating engines",
+                    "Hybrid engines",
+                    "Electric engines"]
+    },
+    {
+        "numb": 52,
+        "question": "Reciprocating engines operate on the principle of converting:",
+        "answer": "Chemical energy to mechanical energy",
+        "options": ["Mechanical energy to chemical energy",
+                    "Electrical energy to mechanical energy",
+                    "Chemical energy to mechanical energy",
+                    "Thermal energy to electrical energy"]
+    },
+    {
+        "numb": 53,
+        "question": "How many operating cycles can reciprocating engines have?",
+        "answer": "Two",
+        "options": ["One", "Two", "Three", "Four"]
+    },
+    {
+        "numb": 54,
+        "question": "Which of the following is NOT a cylinder arrangement relative to the crankshaft mentioned in the paragraph?",
+        "answer": "Parallel",
+        "options": ["Radial", "In-line", "Parallel", "V-type"]
+    },
+    {
+        "numb": 55,
+        "question": "What is the primary function of the ignition system in piston engines?",
+        "answer": "Providing the spark to ignite the mixture in the cylinders",
+        "options": ["Regulating fuel flow",
+                    "Cooling the engine",
+                    "Providing the spark to ignite the mixture in the cylinders",
+                    "Generating electricity for the aircraft"]
+    },
+    {
+        "numb": 56,
+        "question": "How do turbine aircraft ignition systems differ from those of piston engines?",
+        "answer": "They are set up differently",
+        "options": ["They do not require ignition systems",
+                    "They use magnetos and spark plugs",
+                    "They use a different type of fuel",
+                    "They are set up differently"]
+    },
+    {
+        "numb": 57,
+        "question": "What is a characteristic of radial engines mentioned in the paragraph?",
+        "answer": "Large frontal area and high power-to-weight ratio",
+        "options": ["Small frontal area and low power-to-weight ratio",
+                    "Large frontal area and low power-to-weight ratio",
+                    "Small frontal area and high power-to-weight ratio",
+                    "Large frontal area and high power-to-weight ratio"]
+    },
+    {
+        "numb": 58,
+        "question": "Which type of engine is described as having a small frontal area but a low power-to-weight ratio?",
+        "answer": "In-line engines",
+        "options": ["Radial engines",
+                    "In-line engines",
+                    "V-line engines",
+                    "Rotary engines"]
+    },
+    {
+        "numb": 59,
+        "question": "What is a notable feature of V-line engines according to the paragraph?",
+        "answer": "They always have an even number of cylinders for opposition",
+        "options": ["They use a three-sided 'piston' for motion",
+                    "They have an odd number of cylinders",
+                    "They are limited to small engine applications",
+                    "They always have an even number of cylinders for opposition"]
+    },
+    {
+        "numb": 60,
+        "question": "What is the purpose of the ignition system in piston engines?",
+        "answer": "To provide electrical current to the spark plugs",
+        "options": ["To regulate engine temperature",
+                    "To provide electrical current to the spark plugs",
+                    "To control fuel flow into the cylinders",
+                    "To manage engine timing"]
+    },
+
+    {
+        "numb": 61,
+        "question": "What is the function of magnetos in aircraft ignition systems?",
+        "answer": "They supply electrical current to the spark plugs",
+        "options": ["They control the operation of the spark plugs",
+                    "They supply electrical current to the spark plugs",
+                    "They regulate fuel flow into the engine",
+                    "They monitor engine temperature"]
+    },
+    {
+        "numb": 62,
+        "question": "Why do most airplanes have a dual ignition system?",
+        "answer": "To increase reliability",
+        "options": ["To increase fuel efficiency",
+                    "To decrease engine weight",
+                    "To improve engine cooling",
+                    "To increase reliability"]
+    },
+    {
+        "numb": 63,
+        "question": "What happens if one magneto or spark plug fails in a dual ignition system?",
+        "answer": "The engine continues to run normally with a slight decrease in power",
+        "options": ["The engine shuts down immediately",
+                    "The engine continues to run normally with a slight decrease in power",
+                    "The engine experiences a significant decrease in power",
+                    "The engine overheats rapidly"]
+    },
+    {
+        "numb": 64,
+        "question": "When are magneto checks typically performed?",
+        "answer": "Before takeoff",
+        "options": ["During flight",
+                    "After landing",
+                    "Before takeoff",
+                    "During refueling"]
+    },
+    {
+        "numb": 65,
+        "question": "What does the ignition system provide in piston engines?",
+        "answer": "Spark or compression ignition",
+        "options": ["Fuel injection",
+                    "Engine cooling",
+                    "Spark or compression ignition",
+                    "Gear shifting"]
+    },
+    {
+        "numb": 66,
+        "question": "Which of the following is NOT a component of the ignition system in piston engines?",
+        "answer": "Carburetors",
+        "options": ["Spark plugs",
+                    "Carburetors",
+                    "Wires",
+                    "Ignition switch"]
+    },
+    {
+        "numb": 67,
+        "question": "What type of ignition does the ignition system provide in conjunction with the combustion process?",
+        "answer": "Spark ignition",
+        "options": ["Fuel ignition",
+                    "Compression ignition",
+                    "Spark ignition",
+                    "Exhaust ignition"]
+    },
+    {
+        "numb": 68,
+        "question": "Which of the following is NOT a function of the ignition system in piston engines?",
+        "answer": "Providing electricity to the aircraft",
+        "options": ["Providing electricity to the aircraft",
+                    "Generating sparks for ignition",
+                    "Regulating fuel flow",
+                    "Providing compression ignition"]
+    },
+    {
+        "numb": 69,
+        "question": "Why do most airplanes have a dual ignition system?",
+        "answer": "To increase reliability",
+        "options": ["To increase fuel efficiency",
+                    "To decrease engine weight",
+                    "To increase reliability",
+                    "To improve engine cooling"]
+    },
+    {
+        "numb": 70,
+        "question": "What happens if one magneto or spark plug fails in a dual ignition system?",
+        "answer": "The unaffected magneto compensates with increased power",
+        "options": ["Both magnetos cease to function",
+                    "The unaffected magneto compensates with increased power",
+                    "The engine shuts down immediately",
+                    "There is no effect on engine operation"]
+    },
+    {
+        "numb": 71,
+        "question": "What does the drop in RPM during magneto checks indicate?",
+        "answer": "Proper grounding and de-energization of the magnetos",
+        "options": ["Engine malfunction",
+                    "Proper grounding and de-energization of the magnetos",
+                    "Overheating of the engine",
+                    "Low fuel pressure"]
+    },
+    {
+        "numb": 72,
+        "question": "When moving the ignition switch to 'L,' which magneto is being used?",
+        "answer": "Left",
+        "options": ["Left",
+                    "Right",
+                    "Both",
+                    "None"]
+    },
+    {
+        "numb": 73,
+        "question": "What are the two systems mentioned for compressing intake air to increase horsepower?",
+        "answer": "Superchargers and turbochargers",
+        "options": ["Fuel injection and carburetion",
+                    "Fuel injection and turbocharging",
+                    "Superchargers and turbochargers",
+                    "Propellers and turbines"]
+    },
+    {
+        "numb": 74,
+        "question": "What is the purpose of performing magneto checks?",
+        "answer": "To ensure proper grounding and de-energization of magnetos",
+        "options": ["To increase engine power",
+                    "To ensure proper grounding and de-energization of magnetos",
+                    "To test the fuel injection system",
+                    "To adjust engine timing"]
+    },
+    {
+        "numb": 75,
+        "question": "What does a drop in Rotations Per Minute (RPM) during magneto checks indicate?",
+        "answer": "Improper grounding or de-energization of the magnetos",
+        "options": ["Proper functioning of the magnetos",
+                    "Overheating of the engine",
+                    "Engine roughness",
+                    "Improper grounding or de-energization of the magnetos"]
+    },
+    {
+        "numb": 76,
+        "question": "What is the consequence of a magneto grounding wire not remaining grounded?",
+        "answer": "Potential ignition of remaining fuel in the cylinders",
+        "options": ["Increased engine efficiency",
+                    "Potential ignition of remaining fuel in the cylinders",
+                    "Improved engine cooling",
+                    "Reduced engine power"]
+    },
+    {
+        "numb": 77,
+        "question": "What is detonation in the context of combustion?",
+        "answer": "Explosive ignition caused by excessive temperatures and pressure",
+        "options": ["Smooth and constant combustion",
+                    "Explosive ignition caused by excessive temperatures and pressure",
+                    "Ignition of the fuel/air mixture in advance of the normal timed ignition",
+                    "Purging the cylinder of burned gases"]
+    },
+    {
+        "numb": 78,
+        "question": "What is pre-ignition?",
+        "answer": "Ignition of the fuel/air mixture in advance of the normal timed ignition",
+        "options": ["Smooth and constant combustion",
+                    "Explosive ignition caused by excessive temperatures and pressure",
+                    "Ignition of the fuel/air mixture in advance of the normal timed ignition",
+                    "Purging the cylinder of burned gases"]
+    },
+    {
+        "numb": 79,
+        "question": "What is the principle of operation for spark-ignition engines?",
+        "answer": "Use of magnetos and spark plugs to ignite a pre-mixed fuel/air mixture",
+        "options": ["Compression of air in the cylinder",
+                    "Injection of fuel into the cylinder",
+                    "Use of magnetos and spark plugs to ignite a pre-mixed fuel/air mixture",
+                    "Automatic ignition when injection fuel into the cylinder"]
+    },
+    {
+        "numb": 80,
+        "question": "What is the purpose of the exhaust phase in the combustion cycle?",
+        "answer": "To purge the cylinder of burned gases",
+        "options": ["To intake fuel/air mixture into the cylinder",
+                    "To compress air in the cylinder",
+                    "To ignite the fuel/air mixture",
+                    "To purge the cylinder of burned gases"]
+    }
+]

@@ -1,0 +1,253 @@
+let questions = [
+  // Primary Flight Controls
+  {
+      numb: 1, 
+      question: "Which primary flight control surface directly affects roll around the longitudinal axis?",
+      answer: "Ailerons",
+      options: ["Ailerons", "Rudder", "Elevator", "Stabilator"] 
+  },
+  {
+      numb: 2, 
+      question: "The movable part of the horizontal stabilizer is called the:",
+      answer: "Elevator",
+      options: ["Trim tab", "Vertical stabilizer", "Elevator", "Rudder"]
+  },
+  {
+      numb: 3, 
+      question: "What is the primary function of the rudder?",
+      answer: "Control yaw",
+      options: ["Control roll", "Control pitch", "Control yaw", "Increase lift"]
+  },
+
+  // Aircraft Components
+  {   numb: 4,
+      question: "Which major aircraft component houses the cockpit and passenger cabin?",
+      answer: "Fuselage",
+      options: ["Empennage", "Powerplant", "Fuselage", "Wing"]
+  },
+  {
+      numb: 5, 
+      question: "The main lifting surfaces of an aircraft are the:",
+      answer: "Wings",
+      options: ["Fuselage", "Empennage", "Wings", "Engines"]
+  },
+  {
+      numb: 6, 
+      question: "Which part of the empennage provides stability around the vertical axis?",
+      answer: "Vertical Stabilizer",
+      options: ["Horizontal Stabilizer", "Vertical Stabilizer", "Rudder", "Elevator"]
+  },
+
+  // Flight Dynamics & Systems 
+  {
+      numb: 7, 
+      question: "What is the term for the undesired yawing motion caused by aileron deflection?",
+      answer: "Adverse yaw",
+      options: ["Sideslip", "Adverse yaw", "Dutch roll", "Coordinated turn"]
+  },
+  {
+      numb: 8,
+      question: "What type of flap design increases both lift and wing area?",
+      answer: "Fowler flaps",
+      options: ["Plain flaps", "Split flaps", "Slotted flaps", "Fowler flaps"]
+  },    
+  {
+      numb: 9,
+      question: "A V-tail design combines the functions of which two conventional control surfaces?",
+      answer: "Elevator and rudder",
+      options: ["Ailerons and elevator", "Elevator and rudder", "Rudder and ailerons", "Ailerons and flaps"]
+  },
+
+  {
+    numb: 10,
+    question: "What is the collective term for the mechanical or electronic systems that allow precise control of an aircraft?",
+    answer: "Control Systems",
+    options: ["Flight Instruments", "Navigation Systems", "Control Systems", "Propulsion Systems"]
+},
+{
+    numb: 11,
+    question: "How are primary flight control surfaces categorized?",
+    answer: "Required for safe flight (aileron, elevator, rudder)",
+    options: ["Based on location (wing, tail)", "Based on function (lift, drag, control)", "Required for safe flight (aileron, elevator, rudder)", "Related to pilot workload (primary, secondary)"]
+},
+{
+    numb: 12,
+    question: "Secondary flight controls improve what aspects of aircraft performance?",
+    answer: "Performance (flaps) or pilot workload (trim)",
+    options: ["Engine efficiency", "Stability", "Performance (flaps) or pilot workload (trim)", "Cockpit comfort"]
+},
+{
+    numb: 13,
+    question: "What are the two main types of empennage designs mentioned in the lecture?",
+    answer: "Conventional (separate elevator & rudder) & V-tail (combined)",
+    options: ["Fixed & Movable", "Horizontal & Vertical", "Conventional (separate elevator & rudder) & V-tail (combined)", "Single & Double"]
+},
+{
+    numb: 14,
+    question: "Which component transmits a torsional force from the control column to the control surface?",
+    answer: "Torque Tube",
+    options: ["Turnbuckle", "Bell Crank", "Fairlead", "Torque Tube"]
+},
+{
+    numb: 15,
+    question: "What is the purpose of a turnbuckle in a mechanical flight control system?",
+    answer: "Adjust tension or length of cables",
+    options: ["Change direction of motion", "Guide cables", "Adjust tension or length of cables", "Connect control surfaces"]
+},
+{
+    numb: 16,
+    question: "Early aircraft and some small aircraft today primarily use what type of flight control system?",
+    answer: "Mechanical",
+    options: ["Electrical", "Hydraulic", "Mechanical", "Computerized"]
+},
+{
+    numb: 17,
+    question: "What is the benefit of using a stabilator compared to a conventional elevator?",
+    answer: "Increased control sensitivity",
+    options: ["Reduced pilot workload", "Increased control sensitivity", "Improved stability at high speeds", "Reduced weight"]
+},
+{
+    numb: 18,
+    question: "What is the role of an antiservo tab on a stabilator?",
+    answer: "Counteract pilot-induced control inputs",
+    options: ["Increase lift at low speeds", "Reduce drag during takeoff", "Counteract pilot-induced control inputs", "Improve elevator effectiveness"]
+},
+{
+    numb: 19,
+    question: "Which flight control system uses push-pull rods, cables, and pulleys for operation?",
+    answer: "Mechanical Flight Control System",
+    options: ["Hydraulic Flight Control System", "Electrical Flight Control System", "Computerized Flight Control System", "Mechanical Flight Control System"]
+},
+{
+    numb: 20,
+    question: "Why might complex gearing arrangements be used in a mechanical flight control system?",
+    answer: "Reduce pilot forces for large control surfaces",
+    options: ["Increase pilot feedback", "Improve control surface deflection speed", "Reduce pilot forces for large control surfaces", "Enhance system reliability"]
+},
+{
+    numb: 21,
+    question: "What is the primary function of gust locks used on parked aircraft with mechanical control systems?",
+    answer: "Protect control surfaces and linkages from wind damage",
+    options: ["Reduce aerodynamic drag", "Improve pre-flight checks", "Protect control surfaces and linkages from wind damage", "Aid in control surface alignment"]
+},
+{
+  numb: 22,
+  question: "What is the general effect of flaps on an aircraft's performance?",
+  answer: "Increase lift and drag at low airspeeds",
+  options: ["Increase lift and drag at low airspeeds", "Decrease lift and drag at high airspeeds", "Improve roll control at low speeds", "Enhance engine performance"]
+},
+// Continuation from previous code... 
+
+{
+  numb: 23,
+  question: "What type of flap is commonly used on larger aircraft and significantly changes the airfoil camber?",
+  answer: "Slotted flaps",
+  options: ["Plain flaps", "Slotted flaps", "Split flaps", "Fowler flaps"]
+},
+{
+  numb: 24, 
+  question: "Which flap type creates the most drag at full extension?",
+  answer: "Fowler flaps",
+  options: ["Plain flaps", "Split flaps", "Slotted flaps", "Fowler flaps"]
+},
+{
+  numb: 25,
+  question: "How does increased control surface area on large aircraft impact the design of flight control systems?",
+  answer: "Requires more complex systems due to increased forces", 
+  options: ["No change", "Requires simplified systems", "Increases required engine power", "Requires more complex systems due to increased forces"]
+},
+{
+  numb: 26,
+  question: "Which secondary flight control system helps a pilot maintain a desired attitude without constant control inputs?",
+  answer: "Trim systems",
+  options: ["Flaps", "Speed brakes", "Landing gear", "Trim systems"]
+},
+{
+  numb: 27,
+  question: "Which axis of rotation does the aileron control?",
+  answer: "Longitudinal axis",
+  options: ["Longitudinal axis", "Lateral axis", "Vertical axis", "None of the above"]
+},
+{
+  numb: 28,
+  question: "Which axis of rotation does the elevator/stabilator control?",
+  answer: "Lateral axis",
+  options: ["Longitudinal axis", "Lateral axis", "Vertical axis", "None of the above"]
+},
+{
+  numb: 29,
+  question: "Which axis of rotation does the rudder control?",
+  answer: "Vertical axis",
+  options: ["Longitudinal axis", "Lateral axis", "Vertical axis", "None of the above"] 
+},
+{
+  numb: 30,
+  question: "During initial flap extension, what is the primary effect compared to the later stages of extension?",
+  answer: "Greater increase in lift compared to drag",
+  options: ["Greater increase in drag compared to lift", "Greater increase in lift compared to drag", "Similar effects on both lift and drag", "No effect on either lift or drag"]
+},
+{
+  numb: 31, 
+  question: "What type of flap moves rearward on tracks while changing the wing's overall shape?",
+  answer: "Fowler flaps",
+  options: ["Plain flaps", "Split flaps", "Slotted flaps", "Fowler flaps"]
+},
+{
+  numb: 32,
+  question: "What might a pilot do to compensate for a jammed rudder during flight?",
+  answer: "Carefully use ailerons and engine power",
+  options: ["Apply full ailerons in the opposite direction of the jam", "Carefully use ailerons and engine power", "Declare an emergency and land immediately", "Activate the autopilot if available"]
+},
+{
+  numb: 33, 
+  question: "In a coordinated turn, how does adverse yaw affect the aircraft's movement?",
+  answer: "Nose tends to yaw away from the direction of the turn",
+  options: ["Nose tends to pitch upwards excessively", "Nose tends to yaw away from the direction of the turn", "Aircraft tends to roll faster than intended", "Aircraft experiences a sudden loss of lift"]
+},
+{
+  numb: 34, 
+  question: "The downward deflected aileron creates more drag due to a greater change in...",
+  answer: "Induced drag",
+  options: ["Parasite drag", "Form drag", "Induced drag", "Interference drag"]
+},
+{
+  numb: 35,
+  question: "What function does a Bell Crank serve in a mechanical flight control system?",
+  answer: "Changes the direction of motion",
+  options: ["Amplifies forces", "Changes the direction of motion", "Reduces friction", "Locks the controls"]
+},
+{
+  numb: 36,
+  question: "A fairlead is used to...",
+  answer: "Guide cables and prevent lateral movement",
+  options: ["Adjust tension of cables", "Increase cable strength", "Guide cables and prevent lateral movement", "Provide lubrication to control linkages"]
+},
+{ 
+  numb: 37,
+  question: "When would a pilot likely use a significant amount of rudder input in addition to ailerons?",
+  answer: "During a crosswind landing",
+  options: ["During a stall recovery", "During a high-speed cruise", "During a spin", "During a crosswind landing"]
+},
+{
+  numb: 38,
+  question: "If an aircraft with a conventional empennage experiences a failure of the horizontal stabilizer, what might a pilot do to maintain some control over pitch?",
+  answer: "Carefully use elevator trim and engine power",
+  options: ["Use rudder to compensate", "Carefully use elevator trim and engine power", "Declare an emergency and attempt to land immediately", "No control is possible"]
+},
+{
+  numb: 39,
+  question: "An aircraft is experiencing increased drag on the right wing. Aside from aileron input, which other primary control surface might the pilot use for correction?",
+  answer: "Rudder",
+  options: ["Rudder", "Elevator", "Both elevator and rudder", "Flaps"] 
+},
+{
+  numb: 40,
+  question: "During a landing approach with partial flap extension,  a pilot notices a sudden uncommanded roll to the left. Which is the MOST likely cause?",
+  answer: "Asymmetrical flap deployment (e.g., left flap malfunctioning)",
+  options: ["Sudden engine failure", "Wind gust", "Asymmetrical flap deployment (e.g., left flap malfunctioning)", "Pilot error"] 
+}
+
+
+
+
+];

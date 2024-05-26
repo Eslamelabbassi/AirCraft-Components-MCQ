@@ -1,0 +1,443 @@
+let questions=
+[
+    {
+        "numb": 1,
+        "question": "What is the primary function of an aircraft electrical system?",
+        "answer": "To generate, regulate, and distribute electrical power throughout the aircraft.",
+        "options": [
+            "To provide fuel for cabin heating.",
+            "To cool the engine during operation.",
+            "To generate, regulate, and distribute electrical power throughout the aircraft.",
+            "To regulate the aircraft's electrical system."
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Which of the following are typical power sources for aircraft electrical systems?",
+        "answer": "Engine-driven AC generators, auxiliary power units (APUs), and external power.",
+        "options": [
+            "Battery, solar panels, and wind turbines.",
+            "Alternators, transformers, and rectifiers.",
+            "Fuel pumps, voltage regulators, and inverters.",
+            "Engine-driven AC generators, auxiliary power units (APUs), and external power."
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "What types of electricity are commonly produced in aircraft electrical systems?",
+        "answer": "Direct Current (DC) and Alternating Current (AC).",
+        "options": [
+            "High Voltage (HV) and Low Voltage (LV).",
+            "Positive Voltage (PV) and Negative Voltage (NV).",
+            "Direct Current (DC) and Alternating Current (AC).",
+            "Static Electricity (SE) and Dynamic Electricity (DE)."
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "What voltage range are most aircraft direct current (DC) electrical systems?",
+        "answer": "14 or 28 volts.",
+        "options": [
+            "110 or 220 volts.",
+            "5 or 12 volts.",
+            "14 or 28 volts.",
+            "48 or 96 volts."
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "What is the primary purpose of an alternator or generator in an aircraft electrical system?",
+        "answer": "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery.",
+        "options": [
+            "To store excess electrical energy.",
+            "To power cabin heating systems.",
+            "To provide fuel for the engine.",
+            "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery."
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "Which of the following is a disadvantage of generators compared to alternators?",
+        "answer": "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+        "options": [
+            "Lightweight, higher electrical output, less electrical noise, require less maintenance.",
+            "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+            "Lightweight, higher electrical output, electrical noise and static, require more maintenance.",
+            "Heavy, higher electrical output, less electrical noise, require less maintenance."
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "What is the primary function of a battery in an aircraft electrical system?",
+        "answer": "To provide electrical energy for starting the engine and a limited supply of electrical power in case of alternator or generator failure.",
+        "options": [
+            "To power the cabin lights.",
+            "To cool the engine.",
+            "To regulate electrical current.",
+            "To provide electrical energy for starting the engine and a limited supply of electrical power in case of alternator or generator failure."
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "What is the purpose of the master/battery switch in an aircraft?",
+        "answer": "To turn the electrical system on or off.",
+        "options": [
+            "To control the fuel flow to the engine.",
+            "To regulate the temperature of the cabin.",
+            "To turn the electrical system on or off.",
+            "To adjust the cabin lighting intensity."
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "What is the function of the alternator/generator switch in an aircraft?",
+        "answer": "To exclude the alternator from the electrical system in case of alternator failure.",
+        "options": [
+            "To control the rate of charge to the battery.",
+            "To switch between AC and DC power sources.",
+            "To exclude the alternator from the electrical system in case of alternator failure.",
+            "To adjust the frequency of the electrical current."
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "What is the purpose of fuses or circuit breakers in an aircraft electrical system?",
+        "answer": "To protect circuits and equipment from electrical overload.",
+        "options": [
+            "To increase the electrical output.",
+            "To control the direction of electrical flow.",
+            "To protect circuits and equipment from electrical overload.",
+            "To regulate the battery voltage."
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "What is the advantage of circuit breakers over fuses?",
+        "answer": "Circuit breakers can be manually reset if an overload condition occurs.",
+        "options": [
+            "Circuit breakers are cheaper.",
+            "Circuit breakers provide higher electrical output.",
+            "Circuit breakers are easier to install.",
+            "Circuit breakers can be manually reset if an overload condition occurs."
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "What is the function of a voltage regulator in an aircraft electrical system?",
+        "answer": "To control the rate of charge to the battery by stabilizing the generator or alternator electrical output.",
+        "options": [
+            "To convert AC to DC current.",
+            "To increase the battery voltage.",
+            "To measure the electrical load.",
+            "To control the rate of charge to the battery by stabilizing the generator or alternator electrical output."
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "How is the performance of the aircraft electrical system monitored?",
+        "answer": "Using an ammeter to indicate the charging rate of the battery and a loadmeter to reflect the total percentage of load on the generating capacity.",
+        "options": [
+            "Using a voltmeter to measure voltage.",
+            "Using a speedometer to measure engine RPM.",
+            "Using a thermometer to measure temperature.",
+            "Using an ammeter to indicate the charging rate of the battery and a loadmeter to reflect the total percentage of load on the generating capacity."
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "What is the purpose of static wicks on an aircraft?",
+        "answer": "To discharge static electricity buildup into the atmosphere, preventing interference with communication equipment.",
+        "options": [
+            "To generate static electricity.",
+            "To insulate against static electricity.",
+            "To store static electricity.",
+            "To discharge static electricity buildup into the atmosphere, preventing interference with communication equipment."
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "Which of the following is NOT commonly powered by an aircraft electrical system?",
+        "answer": "Fuel gauges.",
+        "options": [
+            "Aircraft lights.",
+            "Radio equipment.",
+            "Fuel gauges.",
+            "Starting motor."
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "What may indicate an alternator failure in an aircraft?",
+        "answer": "Whining sound, under-performing, batteries picking up electrical load.",
+        "options": [
+            "Engine overheating.",
+            "Increased cabin temperature.",
+            "Loss of cabin lighting.",
+            "Whining sound, under-performing, batteries picking up electrical load."
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "What is a potential consequence of an alternator failure in an aircraft?",
+        "answer": "Loss of functionality in aircraft components like radios and lights, potentially rendering the aircraft illegal to fly.",
+        "options": [
+            "Increased fuel consumption.",
+            "Reduced engine performance.",
+            "Loss of cabin pressurization.",
+            "Loss of functionality in aircraft components like radios and lights, potentially rendering the aircraft illegal to fly."
+        ]
+    },
+    {
+        "numb": 18,
+        "question": "Which components are included in an aircraft electrical system?",
+        "answer": "Alternator/generator, battery, master/battery switch, alternator/generator switch, bus bar, fuses, circuit breakers, voltage regulator, ammeter/loadmeter, static wicks, associated electrical wiring.",
+        "options": [
+            "Fuel pump, fuel filter, carburetor, engine injector.",
+            "Radiator, thermostat, water pump, coolant.",
+            "Propeller, rudder, elevator, aileron.",
+            "Alternator/generator, battery, master/battery switch, alternator/generator switch, bus bar, fuses, circuit breakers, voltage regulator, ammeter/loadmeter, static wicks, associated electrical wiring."
+        ]
+    },
+    {
+        "numb": 19,
+        "question": "What are the typical power sources for aircraft electrical systems?",
+        "answer": "Engine-driven AC generators, auxiliary power units (APUs), external power.",
+        "options": [
+            "Solar panels, wind turbines, battery.",
+            "Alternators, transformers, rectifiers.",
+            "Fuel pumps, voltage regulators, inverters.",
+            "Engine-driven AC generators, auxiliary power units (APUs), external power."
+        ]
+    },
+    {
+        "numb": 20,
+        "question": "Which types of electricity are commonly produced in aircraft electrical systems?",
+        "answer": "Direct Current (DC) and Alternating Current (AC).",
+        "options": [
+            "High Voltage (HV) and Low Voltage (LV).",
+            "Positive Voltage (PV) and Negative Voltage (NV).",
+            "Direct Current (DC) and Alternating Current (AC).",
+            "Static Electricity (SE) and Dynamic Electricity (DE)."
+        ]
+    },
+    {
+        "numb": 21,
+        "question": "What voltage range do most aircraft direct current (DC) electrical systems operate within?",
+        "answer": "14 or 28 volts.",
+        "options": [
+            "110 or 220 volts.",
+            "5 or 12 volts.",
+            "14 or 28 volts.",
+            "48 or 96 volts."
+        ]
+    },
+    {
+        "numb": 22,
+        "question": "What is the primary purpose of an alternator or generator in an aircraft electrical system?",
+        "answer": "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery.",
+        "options": [
+            "To store excess electrical energy.",
+            "To power cabin heating systems.",
+            "To provide fuel for the engine.",
+            "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery."
+        ]
+    },
+    {
+        "numb": 23,
+        "question": "What is a disadvantage of generators compared to alternators?",
+        "answer": "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+        "options": [
+            "Lightweight, higher electrical output, less electrical noise, require less maintenance.",
+            "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+            "Lightweight, higher electrical output, electrical noise and static, require more maintenance.",
+            "Heavy, higher electrical output, less electrical noise, require less maintenance."
+        ]
+    },
+    {
+        "numb": 24,
+        "question": "What is the primary function of a battery in an aircraft electrical system?",
+        "answer": "To provide electrical energy for starting the engine and a limited supply of electrical power in case of alternator or generator failure.",
+        "options": [
+            "To power the cabin lights.",
+            "To cool the engine.",
+            "To regulate electrical current.",
+            "To provide electrical energy for starting the engine and a limited supply of electrical power in case of alternator or generator failure."
+        ]
+    },
+    {
+        "numb": 25,
+        "question": "What is the purpose of the master/battery switch in an aircraft?",
+        "answer": "To turn the electrical system on or off.",
+        "options": [
+            "To control the fuel flow to the engine.",
+            "To regulate the temperature of the cabin.",
+            "To turn the electrical system on or off.",
+            "To adjust the cabin lighting intensity."
+        ]
+    },
+    {
+        "numb": 26,
+        "question": "What is the function of the alternator/generator switch in an aircraft?",
+        "answer": "To exclude the alternator from the electrical system in case of alternator failure.",
+        "options": [
+            "To control the rate of charge to the battery.",
+            "To switch between AC and DC power sources.",
+            "To exclude the alternator from the electrical system in case of alternator failure.",
+            "To adjust the frequency of the electrical current."
+        ]
+    },
+    {
+        "numb": 27,
+        "question": "What is the purpose of fuses or circuit breakers in an aircraft electrical system?",
+        "answer": "To protect circuits and equipment from electrical overload.",
+        "options": [
+            "To increase the electrical output.",
+            "To control the direction of electrical flow.",
+            "To protect circuits and equipment from electrical overload.",
+            "To regulate the battery voltage."
+        ]
+    },
+    {
+        "numb": 28,
+        "question": "What is the advantage of circuit breakers over fuses?",
+        "answer": "Circuit breakers can be manually reset if an overload condition occurs.",
+        "options": [
+            "Circuit breakers are cheaper.",
+            "Circuit breakers provide higher electrical output.",
+            "Circuit breakers are easier to install.",
+            "Circuit breakers can be manually reset if an overload condition occurs."
+        ]
+    },
+    {
+        "numb": 29,
+        "question": "What is the function of a voltage regulator in an aircraft electrical system?",
+        "answer": "To control the rate of charge to the battery by stabilizing the generator or alternator electrical output.",
+        "options": [
+            "To convert AC to DC current.",
+            "To increase the battery voltage.",
+            "To measure the electrical load.",
+            "To control the rate of charge to the battery by stabilizing the generator or alternator electrical output."
+        ]
+    },
+    {
+        "numb": 30,
+        "question": "How is the performance of the aircraft electrical system monitored?",
+        "answer": "Using an ammeter to indicate the charging rate of the battery and a loadmeter to reflect the total percentage of load on the generating capacity.",
+        "options": [
+            "Using a voltmeter to measure voltage.",
+            "Using a speedometer to measure engine RPM.",
+            "Using a thermometer to measure temperature.",
+            "Using an ammeter to indicate the charging rate of the battery and a loadmeter to reflect the total percentage of load on the generating capacity."
+        ]
+    },
+    {
+        "numb": 31,
+        "question": "What is the purpose of static wicks on an aircraft?",
+        "answer": "To discharge static electricity buildup into the atmosphere, preventing interference with communication equipment.",
+        "options": [
+            "To generate static electricity.",
+            "To insulate against static electricity.",
+            "To store static electricity.",
+            "To discharge static electricity buildup into the atmosphere, preventing interference with communication equipment."
+        ]
+    },
+    {
+        "numb": 32,
+        "question": "Which of the following is NOT commonly powered by an aircraft electrical system?",
+        "answer": "Fuel gauges.",
+        "options": [
+            "Aircraft lights.",
+            "Radio equipment.",
+            "Fuel gauges.",
+            "Starting motor."
+        ]
+    },
+    {
+        "numb": 33,
+        "question": "What may indicate an alternator failure in an aircraft?",
+        "answer": "Whining sound, under-performing, batteries picking up electrical load.",
+        "options": [
+            "Engine overheating.",
+            "Increased cabin temperature.",
+            "Loss of cabin lighting.",
+            "Whining sound, under-performing, batteries picking up electrical load."
+        ]
+    },
+    {
+        "numb": 34,
+        "question": "What is a potential consequence of an alternator failure in an aircraft?",
+        "answer": "Loss of functionality in aircraft components like radios and lights, potentially rendering the aircraft illegal to fly.",
+        "options": [
+            "Increased fuel consumption.",
+            "Reduced engine performance.",
+            "Loss of cabin pressurization.",
+            "Loss of functionality in aircraft components like radios and lights, potentially rendering the aircraft illegal to fly."
+        ]
+    },
+    {
+        "numb": 35,
+        "question": "Which components are included in an aircraft electrical system?",
+        "answer": "Alternator/generator, battery, master/battery switch, alternator/generator switch, bus bar, fuses, circuit breakers, voltage regulator, ammeter/loadmeter, static wicks, associated electrical wiring.",
+        "options": [
+            "Fuel pump, fuel filter, carburetor, engine injector.",
+            "Radiator, thermostat, water pump, coolant.",
+            "Propeller, rudder, elevator, aileron.",
+            "Alternator/generator, battery, master/battery switch, alternator/generator switch, bus bar, fuses, circuit breakers, voltage regulator, ammeter/loadmeter, static wicks, associated electrical wiring."
+        ]
+    },
+    {
+        "numb": 36,
+        "question": "What are the typical power sources for aircraft electrical systems?",
+        "answer": "Engine-driven AC generators, auxiliary power units (APUs), external power.",
+        "options": [
+            "Solar panels, wind turbines, battery.",
+            "Alternators, transformers, rectifiers.",
+            "Fuel pumps, voltage regulators, inverters.",
+            "Engine-driven AC generators, auxiliary power units (APUs), external power."
+        ]
+    },
+    {
+        "numb": 37,
+        "question": "Which types of electricity are commonly produced in aircraft electrical systems?",
+        "answer": "Direct Current (DC) and Alternating Current (AC).",
+        "options": [
+            "High Voltage (HV) and Low Voltage (LV).",
+            "Positive Voltage (PV) and Negative Voltage (NV).",
+            "Direct Current (DC) and Alternating Current (AC).",
+            "Static Electricity (SE) and Dynamic Electricity (DE)."
+        ]
+    },
+    {
+        "numb": 38,
+        "question": "What voltage range do most aircraft direct current (DC) electrical systems operate within?",
+        "answer": "14 or 28 volts.",
+        "options": [
+            "110 or 220 volts.",
+            "5 or 12 volts.",
+            "14 or 28 volts.",
+            "48 or 96 volts."
+        ]
+    },
+    {
+        "numb": 39,
+        "question": "What is the primary purpose of an alternator or generator in an aircraft electrical system?",
+        "answer": "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery.",
+        "options": [
+            "To store excess electrical energy.",
+            "To power cabin heating systems.",
+            "To provide fuel for the engine.",
+            "To supply electric current to the electrical system for in-flight operations and maintain a sufficient electrical charge on the battery."
+        ]
+    },
+    {
+        "numb": 40,
+        "question": "What is a disadvantage of generators compared to alternators?",
+        "answer": "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+        "options": [
+            "Lightweight, higher electrical output, less electrical noise, require less maintenance.",
+            "Heavy, lower electrical output, electrical noise and static, require more maintenance.",
+            "Lightweight, higher electrical output, electrical noise and static, require more maintenance.",
+            "Heavy, higher electrical output, less electrical noise, require less maintenance."
+        ]
+    }
+]

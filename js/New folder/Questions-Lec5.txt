@@ -1,0 +1,190 @@
+let questions=
+[
+    {
+        "numb": 1,
+        "question": "What is the primary purpose of aviation fuel systems?",
+        "answer": "To deliver uninterrupted fuel to the engine under all conditions.",
+        "options": [
+            "To provide fuel for cabin heating.",
+            "To cool the engine during operation.",
+            "To deliver uninterrupted fuel to the engine under all conditions.",
+            "To regulate the aircraft's electrical system."
+        ]
+    },
+    {
+        "numb": 2,
+        "question": "Which system utilizes the force of gravity to transfer fuel from the tanks to the engine?",
+        "answer": "Gravity-Feed System.",
+        "options": [
+            "Fuel-Pump System.",
+            "Fuel Strainers, Sumps, and Drains.",
+            "Volatility & Flash Point System.",
+            "Gravity-Feed System."
+        ]
+    },
+    {
+        "numb": 3,
+        "question": "Where are fuel tanks typically installed in high-wing airplanes?",
+        "answer": "In the wings.",
+        "options": [
+            "In the fuselage.",
+            "Under the cabin floor.",
+            "In the tail section.",
+            "In the wings."
+        ]
+    },
+    {
+        "numb": 4,
+        "question": "How many fuel pumps are typically found in aircraft with fuel-pump systems?",
+        "answer": "Two.",
+        "options": [
+            "One.",
+            "Three.",
+            "Two.",
+            "Four."
+        ]
+    },
+    {
+        "numb": 5,
+        "question": "What is the purpose of a fuel primer in aircraft fuel systems?",
+        "answer": "To draw fuel from the tanks and vaporize it directly into the cylinders prior to starting the engine.",
+        "options": [
+            "To measure the amount of fuel in the tanks.",
+            "To regulate the flow of fuel to the engine.",
+            "To remove contaminants from the fuel.",
+            "To draw fuel from the tanks and vaporize it directly into the cylinders prior to starting the engine."
+        ]
+    },
+    {
+        "numb": 6,
+        "question": "What is the lowest temperature at which a combustible liquid gives off vapors in sufficient quantity to ignite with the application of flame called?",
+        "answer": "Flash Point.",
+        "options": [
+            "Boiling Point.",
+            "Ignition Point.",
+            "Combustion Point.",
+            "Flash Point."
+        ]
+    },
+    {
+        "numb": 7,
+        "question": "What should be done if water is found in the fuel system?",
+        "answer": "Drain the fuel system until there is no evidence of water.",
+        "options": [
+            "Ignore it, as it will evaporate on its own.",
+            "Increase the temperature of the fuel system.",
+            "Drain the fuel system until there is no evidence of water.",
+            "Continue flying and monitor the situation."
+        ]
+    },
+    {
+        "numb": 8,
+        "question": "What type of fuel is commonly used in aircraft with turbine engines?",
+        "answer": "Jet fuel.",
+        "options": [
+            "Diesel fuel.",
+            "Gasoline.",
+            "Kerosene.",
+            "Jet fuel."
+        ]
+    },
+    {
+        "numb": 9,
+        "question": "What is the purpose of a fuel quantity gauge?",
+        "answer": "To indicate the amount of fuel measured by a sensing unit in each fuel tank.",
+        "options": [
+            "To measure the temperature of the fuel.",
+            "To regulate the flow of fuel to the engine.",
+            "To indicate the level of contaminants in the fuel.",
+            "To indicate the amount of fuel measured by a sensing unit in each fuel tank."
+        ]
+    },
+    {
+        "numb": 10,
+        "question": "What precaution should be taken to guard against the possibility of static electricity igniting fuel fumes during refueling?",
+        "answer": "Attach a ground wire to the aircraft before the fuel cap is removed from the tank.",
+        "options": [
+            "Keep the fuel nozzle in constant contact with the aircraft.",
+            "Wear rubber gloves while refueling.",
+            "Attach a ground wire to the refueling truck.",
+            "Attach a ground wire to the aircraft before the fuel cap is removed from the tank."
+        ]
+    },
+    {
+        "numb": 11,
+        "question": "What is the purpose of a fuel strainer in the fuel system?",
+        "answer": "To remove any moisture and other sediments in the system.",
+        "options": [
+            "To measure the amount of fuel in the tanks.",
+            "To regulate the flow of fuel to the engine.",
+            "To indicate the level of contaminants in the fuel.",
+            "To remove any moisture and other sediments in the system."
+        ]
+    },
+    {
+        "numb": 12,
+        "question": "Which fuel grade is commonly used in higher-compression engines?",
+        "answer": "Higher grades of aviation gasoline.",
+        "options": [
+            "Lower grades of aviation gasoline.",
+            "Auto gas.",
+            "Higher grades of aviation gasoline.",
+            "Jet fuel."
+        ]
+    },
+    {
+        "numb": 13,
+        "question": "What is the purpose of a fuel selector valve?",
+        "answer": "To allow selection of fuel from various tanks.",
+        "options": [
+            "To measure the temperature of the fuel.",
+            "To remove contaminants from the fuel.",
+            "To allow selection of fuel from various tanks.",
+            "To indicate the amount of fuel measured by a sensing unit in each fuel tank."
+        ]
+    },
+    {
+        "numb": 14,
+        "question": "What is the primary risk associated with static electricity during refueling?",
+        "answer": "The possibility of static electricity igniting fuel fumes.",
+        "options": [
+            "The possibility of static electricity damaging the aircraft.",
+            "The possibility of static electricity causing a fuel leak.",
+            "The possibility of static electricity igniting the fuel nozzle.",
+            "The possibility of static electricity igniting fuel fumes."
+        ]
+    },
+    {
+        "numb": 15,
+        "question": "What should be done if a fuel imbalance occurs in the aircraft?",
+        "answer": "Select the appropriate (fullest) tank to even out the fuel levels.",
+        "options": [
+            "Ignore it, as it is not a significant issue.",
+            "Continue flying and monitor the situation.",
+            "Perform an emergency landing.",
+            "Select the appropriate (fullest) tank to even out the fuel levels."
+        ]
+    },
+    {
+        "numb": 16,
+        "question": "What is the risk of using a lower grade of aviation gasoline than recommended for an engine?",
+        "answer": "Exceeding the normal operating ranges of cylinder head temperature and engine oil temperature, which may result in detonation.",
+        "options": [
+            "Reduced engine performance.",
+            "Decreased fuel efficiency.",
+            "Exceeding the normal operating ranges of cylinder head temperature and engine oil temperature, which may result in detonation.",
+            "Increased risk of engine fires."
+        ]
+    },
+    {
+        "numb": 17,
+        "question": "What is the purpose of a fuel strainer in the fuel system?",
+        "answer": "To remove any moisture and other sediments in the system.",
+        "options": [
+            "To measure the amount of fuel in the tanks.",
+            "To regulate the flow of fuel to the engine.",
+            "To indicate the level of contaminants in the fuel.",
+            "To remove any moisture and other sediments in the system."
+        ]
+    }
+]

@@ -1,0 +1,306 @@
+
+let questions=
+[
+  {
+    "numb": 1,
+    "question": "What term describes the method of using pressurized fluid to transmit energy?",
+    "answer": "Fluid power",
+    "options": ["Hydraulic power", "Fluid power", "Pneumatic power", "Mechanical power"]
+  },
+  {
+    "numb": 2,
+    "question": "Which branch of fluid power uses liquid to transfer force from one point to another?",
+    "answer": "Hydraulics",
+    "options": ["Hydraulics", "Pneumatics", "Mechanics", "Electrics"]
+  },
+  {
+    "numb": 3,
+    "question": "What term describes the opposite of 'compressible'?",
+    "answer": "Incompressible",
+    "options": ["Compressible", "Squeezable", "Flexible", "Permeable"]
+  },
+  {
+    "numb": 4,
+    "question": "Which type of system uses air to transfer force from one point to another?",
+    "answer": "Pneumatic system",
+    "options": ["Hydraulic system", "Pneumatic system", "Electric system", "Mechanical system"]
+  },
+  {
+    "numb": 5,
+    "question": "What determines the design of a hydraulic system for an aircraft?",
+    "answer": "The type of aircraft and the tasks it needs to perform",
+    "options": ["The size of the aircraft", "The weather conditions", "The availability of materials", "The type of aircraft and the tasks it needs to perform"]
+  },
+  {
+    "numb": 6,
+    "question": "What is the primary source of power for hydraulic systems on aircraft?",
+    "answer": "The engine",
+    "options": ["The battery", "The engine", "The generator", "The fuel tank"]
+  },
+  {
+    "numb": 7,
+    "question": "Which law states that pressure exerted on a fluid in an enclosed container is transmitted equally and undiminished to all parts of the container?",
+    "answer": "Pascal’s Law",
+    "options": ["Boyle's Law", "Bernoulli's Principle", "Pascal’s Law", "Archimedes' Principle"]
+  },
+  {
+    "numb": 8,
+    "question": "What characteristic must hydraulic fluid have to minimize resistance to flow?",
+    "answer": "Low viscosity",
+    "options": ["High viscosity", "Low viscosity", "High density", "High volatility"]
+  },
+  {
+    "numb": 9,
+    "question": "What is the purpose of a selector valve in a hydraulic system?",
+    "answer": "To control the direction of fluid flow",
+    "options": ["To regulate fluid pressure", "To store hydraulic energy", "To actuate hydraulic actuators", "To control the direction of fluid flow"]
+  },
+  {
+    "numb": 10,
+    "question": "What type of pump moves a specific volume of fluid each time its shaft turns?",
+    "answer": "Constant displacement pump",
+    "options": ["Variable displacement pump", "Gear pump", "Centrifugal pump", "Constant displacement pump"]
+  },
+  {
+    "numb": 11,
+    "question": "What component ensures that sufficient fluid is available under all conditions of demand in a hydraulic system?",
+    "answer": "Reservoir",
+    "options": ["Actuator", "Pump", "Reservoir", "Accumulator"]
+  },
+  {
+    "numb": 12,
+    "question": "Which type of fluid is commonly used in hydraulic systems of older aircraft?",
+    "answer": "Vegetable-base fluid",
+    "options": ["Synthetic fluid", "Mineral-base fluid", "Vegetable-base fluid", "Water-based fluid"]
+  },
+  {
+    "numb": 13,
+    "question": "What distinguishes a closed hydraulic system from an open hydraulic system?",
+    "answer": "In a closed hydraulic system, fluid is contained within a sealed circuit",
+    "options": ["In a closed hydraulic system, fluid is stored in a reservoir", "In a closed hydraulic system, fluid is pressurized by an accumulator", "In a closed hydraulic system, fluid is allowed to escape to the atmosphere", "In a closed hydraulic system, fluid is contained within a sealed circuit"]
+  },
+  {
+    "numb": 14,
+    "question": "What type of valve is responsible for regulating or limiting the pressure of hydraulic fluid in a system?",
+    "answer": "Pressure control valve",
+    "options": ["Selector valve", "Check valve", "Pressure relief valve", "Pressure control valve"]
+  },
+  {
+    "numb": 15,
+    "question": "Which type of pump does not move a constant amount of fluid each revolution?",
+    "answer": "Variable displacement pump",
+    "options": ["Gear pump", "Vane pump", "Piston pump", "Variable displacement pump"]
+  },
+  {
+    "numb": 16,
+    "question": "What is the primary function of an accumulator in a hydraulic system?",
+    "answer": "To store hydraulic energy and maintain system pressure",
+    "options": ["To regulate fluid flow", "To filter hydraulic fluid", "To cool hydraulic fluid", "To store hydraulic energy and maintain system pressure"]
+  },
+  {
+    "numb": 17,
+    "question": "What term describes the resistance to flow within a hydraulic system?",
+    "answer": "Viscosity",
+    "options": ["Pressure", "Temperature", "Viscosity", "Volume"]
+  },
+  {
+    "numb": 18,
+    "question": "What is the main function of a sequence valve in a hydraulic system?",
+    "answer": "To ensure that certain operations occur in a specified sequence",
+    "options": ["To regulate fluid pressure", "To control fluid flow rate", "To store hydraulic energy", "To ensure that certain operations occur in a specified sequence"]
+  },
+  {
+    "numb": 19,
+    "question": "What type of fluid property refers to the ability of the fluid to resist oxidation and deterioration?",
+    "answer": "Chemical stability",
+    "options": ["Viscosity", "Flash point", "Fire point", "Chemical stability"]
+  },
+  {
+    "numb": 20,
+    "question": "Which law states that the pressure exerted by a column of liquid is determined by the height of the column and is independent of its volume?",
+    "answer": "Hydrostatic Paradox",
+    "options": ["Boyle's Law", "Bernoulli's Principle", "Pascal’s Law", "Hydrostatic Paradox"]
+  },
+  {
+    "numb": 21,
+    "question": "What is the primary advantage of using hydraulic systems in aircraft?",
+    "answer": "They provide efficient and reliable power for various aircraft functions",
+    "options": ["They are lightweight", "They are inexpensive", "They are easy to maintain", "They provide efficient and reliable power for various aircraft functions"]
+  },
+  {
+    "numb": 22,
+    "question": "What term describes the method of using pressurized gas to transmit energy?",
+    "answer": "Pneumatics",
+    "options": ["Hydraulics", "Pneumatics", "Electrics", "Mechanics"]
+  },
+  {
+    "numb": 23,
+    "question": "Which type of system uses liquid to transfer force from one point to another?",
+    "answer": "Hydraulic system",
+    "options": ["Pneumatic system", "Hydraulic system", "Electric system", "Mechanical system"]
+  },
+  {
+    "numb": 24,
+    "question": "What characteristic must hydraulic fluid have to minimize resistance to flow?",
+    "answer": "Low viscosity",
+    "options": ["High viscosity", "Low viscosity", "High density", "High volatility"]
+  },
+  {
+    "numb": 25,
+    "question": "What determines the design of a hydraulic system for an aircraft?",
+    "answer": "The type of aircraft and the tasks it needs to perform",
+    "options": ["The size of the aircraft", "The weather conditions", "The availability of materials", "The type of aircraft and the tasks it needs to perform"]
+  },
+  {
+    "numb": 26,
+    "question": "What is the primary source of power for hydraulic systems on aircraft?",
+    "answer": "The engine",
+    "options": ["The battery", "The engine", "The generator", "The fuel tank"]
+  },
+  {
+    "numb": 27,
+    "question": "Which law states that pressure exerted on a fluid in an enclosed container is transmitted equally and undiminished to all parts of the container?",
+    "answer": "Pascal’s Law",
+    "options": ["Boyle's Law", "Bernoulli's Principle", "Pascal’s Law", "Archimedes' Principle"]
+  },
+  {
+    "numb": 28,
+    "question": "What type of valve is responsible for controlling the direction of fluid flow in a hydraulic system?",
+    "answer": "Selector valve",
+    "options": ["Pressure relief valve", "Check valve", "Selector valve", "Flow control valve"]
+  },
+  {
+    "numb": 29,
+    "question": "What is the primary function of an accumulator in a hydraulic system?",
+    "answer": "To store hydraulic energy and maintain system pressure",
+    "options": ["To regulate fluid flow", "To filter hydraulic fluid", "To cool hydraulic fluid", "To store hydraulic energy and maintain system pressure"]
+  },
+  {
+    "numb": 30,
+    "question": "What type of pump moves a specific volume of fluid each time its shaft turns?",
+    "answer": "Constant displacement pump",
+    "options": ["Variable displacement pump", "Gear pump", "Centrifugal pump", "Constant displacement pump"]
+  },
+  {
+    "numb": 31,
+    "question": "What component ensures that sufficient fluid is available under all conditions of demand in a hydraulic system?",
+    "answer": "Reservoir",
+    "options": ["Actuator", "Pump", "Reservoir", "Accumulator"]
+  },
+  {
+    "numb": 32,
+    "question": "What type of fluid is commonly used in hydraulic systems of older aircraft?",
+    "answer": "Vegetable-base fluid",
+    "options": ["Synthetic fluid", "Mineral-base fluid", "Vegetable-base fluid", "Water-based fluid"]
+  },
+  {
+    "numb": 33,
+    "question": "What distinguishes a closed hydraulic system from an open hydraulic system?",
+    "answer": "In a closed hydraulic system, fluid is contained within a sealed circuit",
+    "options": ["In a closed hydraulic system, fluid is stored in a reservoir", "In a closed hydraulic system, fluid is pressurized by an accumulator", "In a closed hydraulic system, fluid is allowed to escape to the atmosphere", "In a closed hydraulic system, fluid is contained within a sealed circuit"]
+  },
+  {
+    "numb": 34,
+    "question": "What type of valve is responsible for regulating or limiting the pressure of hydraulic fluid in a system?",
+    "answer": "Pressure control valve",
+    "options": ["Selector valve", "Check valve", "Pressure relief valve", "Pressure control valve"]
+  },
+  {
+    "numb": 35,
+    "question": "Which type of pump does not move a constant amount of fluid each revolution?",
+    "answer": "Variable displacement pump",
+    "options": ["Gear pump", "Vane pump", "Piston pump", "Variable displacement pump"]
+  },
+  {
+    "numb": 36,
+    "question": "What is the primary function of a sequence valve in a hydraulic system?",
+    "answer": "To ensure that certain operations occur in a specified sequence",
+    "options": ["To regulate fluid pressure", "To control fluid flow rate", "To store hydraulic energy", "To ensure that certain operations occur in a specified sequence"]
+  },
+  {
+    "numb": 37,
+    "question": "What type of fluid property refers to the ability of the fluid to resist oxidation and deterioration?",
+    "answer": "Chemical stability",
+    "options": ["Viscosity", "Flash point", "Fire point", "Chemical stability"]
+  },
+  {
+    "numb": 38,
+    "question": "Which law states that the pressure exerted by a column of liquid is determined by the height of the column and is independent of its volume?",
+    "answer": "Hydrostatic Paradox",
+    "options": ["Boyle's Law", "Bernoulli's Principle", "Pascal’s Law", "Hydrostatic Paradox"]
+  },
+  {
+    "numb": 39,
+    "question": "What is the primary advantage of using hydraulic systems in aircraft?",
+    "answer": "They provide efficient and reliable power for various aircraft functions",
+    "options": ["They are lightweight", "They are inexpensive", "They are easy to maintain", "They provide efficient and reliable power for various aircraft functions"]
+  },
+  {
+    "numb": 40,
+    "question": "What term describes the method of using pressurized gas to transmit energy?",
+    "answer": "Pneumatics",
+    "options": ["Hydraulics", "Pneumatics", "Electrics", "Mechanics"]
+  },
+  {
+    "numb": 41,
+    "question": "Which branch of fluid power uses liquid to transfer force from one point to another?",
+    "answer": "Hydraulics",
+    "options": ["Hydraulics", "Pneumatics", "Mechanics", "Electrics"]
+  },
+  {
+    "numb": 42,
+    "question": "What term describes the opposite of 'compressible'?",
+    "answer": "Incompressible",
+    "options": ["Compressible", "Squeezable", "Flexible", "Permeable"]
+  },
+  {
+    "numb": 43,
+    "question": "Which type of system uses air to transfer force from one point to another?",
+    "answer": "Pneumatic system",
+    "options": ["Hydraulic system", "Pneumatic system", "Electric system", "Mechanical system"]
+
+
+  },
+  {
+    "numb": 44,
+    "question": "What determines the design of a hydraulic system for an aircraft?",
+    "answer": "The type of aircraft and the tasks it needs to perform",
+    "options": ["The size of the aircraft", "The weather conditions", "The availability of materials", "The type of aircraft and the tasks it needs to perform"]
+  },
+  {
+    "numb": 45,
+    "question": "What is the primary source of power for hydraulic systems on aircraft?",
+    "answer": "The engine",
+    "options": ["The battery", "The engine", "The generator", "The fuel tank"]
+  },
+  {
+    "numb": 46,
+    "question": "Which law states that pressure exerted on a fluid in an enclosed container is transmitted equally and undiminished to all parts of the container?",
+    "answer": "Pascal’s Law",
+    "options": ["Boyle's Law", "Bernoulli's Principle", "Pascal’s Law", "Archimedes' Principle"]
+  },
+  {
+    "numb": 47,
+    "question": "What characteristic must hydraulic fluid have to minimize resistance to flow?",
+    "answer": "Low viscosity",
+    "options": ["High viscosity", "Low viscosity", "High density", "High volatility"]
+  },
+  {
+    "numb": 48,
+    "question": "What is the purpose of a selector valve in a hydraulic system?",
+    "answer": "To control the direction of fluid flow",
+    "options": ["To regulate fluid pressure", "To store hydraulic energy", "To actuate hydraulic actuators", "To control the direction of fluid flow"]
+  },
+  {
+    "numb": 49,
+    "question": "What type of pump moves a specific volume of fluid each time its shaft turns?",
+    "answer": "Constant displacement pump",
+    "options": ["Variable displacement pump", "Gear pump", "Centrifugal pump", "Constant displacement pump"]
+  },
+  {
+    "numb": 50,
+    "question": "What component ensures that sufficient fluid is available under all conditions of demand in a hydraulic system?",
+    "answer": "Reservoir",
+    "options": ["Actuator", "Pump", "Reservoir", "Accumulator"]
+  }
+]

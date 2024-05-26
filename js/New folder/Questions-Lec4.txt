@@ -1,0 +1,246 @@
+let questions=
+[
+  {
+    "numb": 1,
+    "question": "What are the primary functions of aircraft landing gear?",
+    "answer": "Supporting critical structural load during takeoff, landing, and ground operations",
+    "options": ["Providing buoyancy during water operations", "Aiding in aircraft stability during turbulence", "Supporting critical structural load during takeoff, landing, and ground operations", "Aiding in aircraft communication systems"]
+  },
+  {
+    "numb": 2,
+    "question": "How does the complexity of landing gear systems affect their components?",
+    "answer": "Different types of landing gear systems require different components and equipment for operation",
+    "options": ["Complex landing gear systems have fewer components", "All landing gear systems use the same components", "The complexity of landing gear systems does not affect their components", "Different types of landing gear systems require different components and equipment for operation"]
+  },
+  {
+    "numb": 3,
+    "question": "What is the purpose of the braking system in an aircraft?",
+    "answer": "To mechanically stop the aircraft",
+    "options": ["To increase aircraft speed", "To reduce fuel consumption", "To mechanically stop the aircraft", "To assist in takeoff"]
+  },
+  {
+    "numb": 4,
+    "question": "What must pilots be prepared for regarding the landing gear?",
+    "answer": "Identifying and responding to malfunctions",
+    "options": ["Installing new landing gear", "Ignoring landing gear issues", "Identifying and responding to malfunctions", "Requesting assistance for minor landing gear adjustments"]
+  },
+  {
+    "numb": 5,
+    "question": "What are some common characteristics of training aircraft landing gear?",
+    "answer": "They often have common landing gear characteristics",
+    "options": ["They are designed for military operations", "They have retractable landing gear", "They often have common landing gear characteristics", "They are equipped with advanced braking systems"]
+  },
+  {
+    "numb": 6,
+    "question": "How many wheels does the typical landing gear consist of?",
+    "answer": "Three",
+    "options": ["Two", "Four", "Three", "Five"]
+  },
+  {
+    "numb": 7,
+    "question": "What are the two main types of landing gear configurations?",
+    "answer": "Conventional (tailwheel) gear and tricycle gear",
+    "options": ["Pontoons and skis", "Fixed gear and retractable gear", "Tricycle gear and pontoons", "Conventional (tailwheel) gear and tricycle gear"]
+  },
+  {
+    "numb": 8,
+    "question": "What distinguishes a conventional (tailwheel) landing gear?",
+    "answer": "It employs a rear-mounted wheel",
+    "options": ["It employs a front-mounted wheel", "It has no wheels", "It employs a rear-mounted wheel", "It is retractable"]
+  },
+  {
+    "numb": 9,
+    "question": "What are some advantages of conventional (tailwheel) gear?",
+    "answer": "Adequate ground clearance for a larger propeller and suitability for operations on unimproved fields",
+    "options": ["Lower cost and increased stability", "Lower maintenance and improved visibility", "Adequate ground clearance for a larger propeller and suitability for operations on unimproved fields", "Reduced weight and increased speed"]
+  },
+  {
+    "numb": 10,
+    "question": "What are some disadvantages of conventional (tailwheel) gear?",
+    "answer": "Difficulty in directional control, especially at low speeds, and reduced forward visibility",
+    "options": ["Ease of directional control and enhanced forward visibility", "Lower operating costs and improved stability", "Difficulty in directional control, especially at low speeds, and reduced forward visibility", "Increased weight and improved maneuverability"]
+  },
+  {
+    "numb": 11,
+    "question": "What is a tricycle landing gear?",
+    "answer": "Landing gear employing a front-mounted wheel",
+    "options": ["Landing gear employing a rear-mounted wheel", "Landing gear with no wheels", "Landing gear employing a side-mounted wheel", "Landing gear employing a front-mounted wheel"]
+  },
+  {
+    "numb": 12,
+    "question": "What are some advantages of tricycle gear?",
+    "answer": "Better forward visibility, prevention of ground looping, and more forceful application of brakes",
+    "options": ["Increased weight and reduced stability", "Reduced forward visibility and increased speed", "Better forward visibility, prevention of ground looping, and more forceful application of brakes", "Lower cost and easier maintenance"]
+  },
+  {
+    "numb": 13,
+    "question": "What are pontoons and ski-planes used for?",
+    "answer": "Water operations and landing on snow, respectively",
+    "options": ["Desert operations and landing on ice, respectively", "Mountain operations and landing on sand, respectively", "Water operations and landing on snow, respectively", "Urban operations and landing on grass, respectively"]
+  },
+  {
+    "numb": 14,
+    "question": "What are the two main categories of landing gear design?",
+    "answer": "Fixed landing gear and retractable landing gear",
+    "options": ["Mechanical landing gear and hydraulic landing gear", "Conventional landing gear and tricycle landing gear", "Fixed landing gear and retractable landing gear", "Civilian landing gear and military landing gear"]
+  },
+  {
+    "numb": 15,
+    "question": "What are some advantages of fixed landing gear?",
+    "answer": "Always deployed and low cost",
+    "options": ["Always deployed and high performance", "Retractable and low cost", "Retractable and high performance", "Always deployed and low cost"]
+  },
+  {
+    "numb": 16,
+    "question": "What are some disadvantages of fixed landing gear?",
+    "answer": "Creates constant drag and is limited to high-performance aircraft",
+    "options": ["Creates constant drag and increases stability", "Retractable and low cost", "Retractable and high performance", "Creates constant drag and is limited to high-performance aircraft"]
+  },
+  {
+    "numb": 17,
+    "question": "What are the primary benefits of retractable landing gear?",
+    "answer": "Increased climb performance and higher cruise airspeeds due to decreased drag",
+    "options": ["Reduced weight and improved stability", "Always deployed and low cost", "Increased climb performance and higher cruise airspeeds due to decreased drag", "Creates constant drag and increases stability"]
+  },
+  {
+    "numb": 18,
+    "question": "How are retractable landing gear systems operated?",
+    "answer": "Either hydraulically, electrically, or a combination of both",
+    "options": ["Manually only", "Pneumatically only", "Hydraulically only", "Either hydraulically, electrically, or a combination of both"]
+  },
+  {
+    "numb": 19,
+    "question": "What are warning indicators used for in retractable landing gear systems?",
+    "answer": "To show the pilot when the wheels are down and locked or up and locked, or if they are in intermediate positions",
+    "options": ["To show the pilot fuel levels", "To indicate engine temperature", "To indicate cabin pressure", "To show the pilot when the wheels are down and locked or up and locked, or if they are in intermediate positions"]
+  },
+  {
+    "numb": 20,
+    "question": "How does an electrical landing gear retraction system operate?",
+    "answer": "It utilizes an electrically driven motor to retract and extend the gear",
+    "options": ["It utilizes a hydraulic system to retract and extend the gear", "It utilizes a pneumatic system to retract and extend the gear", "It utilizes a mechanical system to retract and extend the gear", "It utilizes an electrically driven motor to retract and extend the gear"]
+  },
+
+  {
+    "numb": 21,
+    "question": "What are the primary components of an emergency gear extension system?",
+    "answer": "Mechanical linkage, compressed gas, or hydraulic fluid",
+    "options": ["Electrical switches and sensors", "Pneumatic actuators and valves", "Mechanical linkage, compressed gas, or hydraulic fluid", "Microprocessors and electronic circuits"]
+  },
+  {
+    "numb": 22,
+    "question": "What safety devices are commonly used to prevent landing gear collapse on the ground?",
+    "answer": "Ground locks",
+    "options": ["Gear doors", "Fairings", "Struts", "Ground locks"]
+  },
+  {
+    "numb": 23,
+    "question": "What is the purpose of a gear warning horn in an aircraft?",
+    "answer": "To alert the pilot if the landing gear is not down and locked during landing configuration",
+    "options": ["To indicate cabin pressure", "To warn of engine overheating", "To signal low fuel levels", "To alert the pilot if the landing gear is not down and locked during landing configuration"]
+  },
+  {
+    "numb": 24,
+    "question": "What are some potential limitations of emergency gear extension systems?",
+    "answer": "Airspeed restrictions and design configurations",
+    "options": ["Weight restrictions and altitude limitations", "Fuel consumption and engine power", "Airspeed restrictions and design configurations", "Weather conditions and turbulence"]
+  },
+  {
+    "numb": 25,
+    "question": "How does a hydraulic landing gear retraction system operate?",
+    "answer": "Pressurized hydraulic fluid actuates linkages to raise and lower the gear",
+    "options": ["Electrically driven motor retracts and extends the gear", "Compressed gas expands to extend the gear", "Mechanical linkage is manually operated to extend the gear", "Pressurized hydraulic fluid actuates linkages to raise and lower the gear"]
+  },
+  {
+    "numb": 26,
+    "question": "What are the primary functions of a nose wheel in tricycle landing gear?",
+    "answer": "Provides steering control during taxiing",
+    "options": ["Supports most of the weight of the aircraft", "Aids in stability during takeoff", "Provides steering control during taxiing", "Retracts into the fuselage during flight"]
+  },
+  {
+    "numb": 27,
+    "question": "What distinguishes a ski-plane landing gear?",
+    "answer": "It employs skis for landing on snowy landing strips",
+    "options": ["It employs pontoons for water operations", "It has retractable gear for high-speed flight", "It has no landing gear", "It employs skis for landing on snowy landing strips"]
+  },
+  {
+    "numb": 28,
+    "question": "What are some advantages of tricycle landing gear over conventional (tailwheel) gear?",
+    "answer": "Better forward visibility and prevention of ground looping",
+    "options": ["Lower cost and increased stability", "Adequate ground clearance and larger propeller", "Increased maneuverability and reduced weight", "Better forward visibility and prevention of ground looping"]
+  },
+  {
+    "numb": 29,
+    "question": "What are some disadvantages of tricycle landing gear?",
+    "answer": "Complexity in design and higher maintenance requirements",
+    "options": ["Higher cost and reduced stability", "Limited ground clearance and smaller propeller", "Lower maneuverability and increased weight", "Complexity in design and higher maintenance requirements"]
+  },
+  {
+    "numb": 30,
+    "question": "What are some potential safety concerns with retractable landing gear systems?",
+    "answer": "Accidental retraction, gear collapse, and failure to extend or lock properly",
+    "options": ["Excessive drag, loss of speed, and poor visibility", "Overheating, hydraulic leaks, and electrical failure", "Accidental retraction, gear collapse, and failure to extend or lock properly", "Pilot disorientation, instrument failure, and communication loss"]
+  },
+  {
+    "numb": 31,
+    "question": "How do pilots perform preflight checks on retractable landing gear?",
+    "answer": "Ensure the gear selector switch is in the correct position and inspect external components for damage or obstructions",
+    "options": ["Activate the gear retraction system and monitor pressure levels", "Check fuel levels and engine temperature", "Test electrical circuits and sensor readings", "Ensure the gear selector switch is in the correct position and inspect external components for damage or obstructions"]
+  },
+  {
+    "numb": 32,
+    "question": "What is the function of a nose wheel shimmy damper?",
+    "answer": "To dampen oscillations and vibrations in the nose wheel",
+    "options": ["To provide steering control during taxiing", "To lock the gear in place during flight", "To retract the nose wheel into the fuselage", "To dampen oscillations and vibrations in the nose wheel"]
+  },
+  {
+    "numb": 33,
+    "question": "How does a gear warning horn operate?",
+    "answer": "It sounds when the airplane is below a certain airspeed, configuration, or power setting with the gear retracted",
+    "options": ["It sounds continuously during flight", "It is manually activated by the pilot", "It sounds only during takeoff and landing", "It sounds when the airplane is below a certain airspeed, configuration, or power setting with the gear retracted"]
+  },
+  {
+    "numb": 34,
+    "question": "What are the primary advantages of pontoons for water operations?",
+    "answer": "Provide buoyancy and stability on water surfaces",
+    "options": ["Increased speed and maneuverability", "Reduced drag and improved aerodynamics", "Provide buoyancy and stability on water surfaces", "Enhanced visibility and communication capabilities"]
+  },
+  {
+    "numb": 35,
+    "question": "What is the purpose of a gear-up lock in an aircraft?",
+    "answer": "To prevent accidental retraction of the landing gear when weight is on the wheels",
+    "options": ["To increase the speed of gear retraction", "To secure the gear doors during flight", "To activate the landing gear warning horn", "To prevent accidental retraction of the landing gear when weight is on the wheels"]
+  },
+  {
+    "numb": 36,
+    "question": "How does a ground lock prevent landing gear collapse?",
+    "answer": "By physically securing two or more units of the landing gear support structure together",
+    "options": ["By activating hydraulic pressure to lock the gear in place", "By deploying an emergency extension system", "By transmitting electrical signals to the gear actuators", "By physically securing two or more units of the landing gear support structure together"]
+  },
+  {
+    "numb": 37,
+    "question": "What are some common indications of potential landing gear malfunctions?",
+    "answer": "Unusual noises, hydraulic leaks, and abnormal gear position indications",
+    "options": ["Engine overheating and fuel imbalance", "Loss of cabin pressure and instrument failure", "Unusual noises, hydraulic leaks, and abnormal gear position indications", "Pilot disorientation and communication loss"]
+  },
+  {
+    "numb": 38,
+    "question": "What is the primary purpose of an emergency gear extension system?",
+    "answer": "To lower the landing gear if the main power system fails",
+    "options": ["To provide additional lift during takeoff", "To increase airspeed in flight", "To improve maneuverability during landing", "To lower the landing gear if the main power system fails"]
+  },
+  {
+    "numb": 39,
+    "question": "How does an emergency gear extension system typically operate?",
+    "answer": "By releasing the up-locks and allowing the gear to free fall or extend under its weight",
+    "options": ["By activating an electrical motor to extend the gear", "By deploying a pneumatic system to extend the gear", "By engaging a mechanical linkage to extend the gear", "By releasing the up-locks and allowing the gear to free fall or extend under its weight"]
+  },
+  {
+    "numb": 40,
+    "question": "What are the primary limitations of fixed landing gear?",
+    "answer": "Creates constant drag and limits high-speed flight performance",
+    "options": ["Requires frequent maintenance and inspections", "Adds complexity to the aircraft structure", "Creates constant drag and limits high-speed flight performance", "Reduces maneuverability and increases weight"]
+  }
+
+
+]

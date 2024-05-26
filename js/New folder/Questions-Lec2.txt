@@ -1,0 +1,252 @@
+
+let questions = [
+  
+    {
+      numb: 1,
+      question: "Which type of leading edge device is frequently used in conjunction with trailing edge flaps to reduce the nose-down pitching movement produced by the latter?",
+      answer: "Leading edge flaps",
+      options: ["Fixed slots", "Movable slats", "Leading edge flaps", "Spoilers"]
+    },
+    {
+      numb: 2,
+      question: "Spoilers are used for which purpose on some airplanes?",
+      answer: "Roll control",
+      options: ["Pitch control", "Yaw control", "Roll control", "Thrust control"]
+    },
+    {
+      numb: 3,
+      question: "How are some airplanes equipped with an adjustable stabilizer controlled?",
+      answer: "By use of a jackscrew mounted on the leading edge of the stabilator",
+      options: ["By using a trim wheel", "By using a motor driven system", "By use of a jackscrew mounted on the leading edge of the stabilator", "By using a push-pull rod"]
+    },
+    {
+      numb: 4,
+      question: "Which type of flight control system uses trim tabs to provide aerodynamic assistance?",
+      answer: "Mechanical flight control systems",
+      options: ["Fly-by-wire systems", "Hydraulic flight control systems", "Mechanical flight control systems", "Digital fly-by-wire systems"]
+    },
+    {
+      numb: 5,
+      question: "In the event of hydraulic system failure, how are control surfaces controlled in manual reversion?",
+      answer: "Control surfaces are controlled by servo tabs",
+      options: ["Control surfaces are directly controlled by the pilot", "Control surfaces are controlled by servo tabs", "Control surfaces are locked in position", "Control surfaces are controlled by fly-by-wire systems"]
+    },
+    {
+      numb: 6,
+      question: "What is one of the main reasons for the need of powered control systems?",
+      answer: "When the pilot’s action is not directly sufficient for the control",
+      options: ["To reduce weight", "To increase complexity", "To improve aerodynamic performance", "When the pilot’s action is not directly sufficient for the control"]
+    },
+    {
+      numb: 7,
+      question: "Which signaling method is more modern and sophisticated in powered control systems?",
+      answer: "Electrical signaling",
+      options: ["Mechanical signaling", "Electrical signaling", "Hydraulic signaling", "Pneumatic signaling"]
+    },
+    {
+      numb: 8,
+      question: "How is the intensity of maneuver communicated to the pilot in powered assisted control systems?",
+      answer: "An artificial feel system is introduced",
+      options: ["Through auditory cues", "Through visual indicators", "An artificial feel system is introduced", "Through tactile feedback"]
+    },
+    {
+      numb: 9,
+      question: "What is introduced in powered systems to counteract mechanical frictions and provide feedback to the pilot?",
+      answer: "Hydraulic servo-mechanisms",
+      options: ["Trim tabs", "Jack screws", "Fly-by-wire systems", "Hydraulic servo-mechanisms"]
+    },
+    {
+      numb: 10,
+      question: "What are some disadvantages of mechanical and hydro-mechanical systems?",
+      answer: "Heavy and require redundant backup, limited ability to compensate for changing aerodynamic conditions",
+      options: ["Lightweight and flexible", "Require minimal maintenance", "Heavy and require redundant backup, limited ability to compensate for changing aerodynamic conditions", "Highly adaptable and responsive"]
+    },
+    {
+      numb: 11,
+      question: "Which type of flight control system uses computers to mitigate undesirable characteristics like stalling and spinning?",
+      answer: "Electrical control circuits combined with computers",
+      options: ["Fly-by-wire systems", "Hydraulic flight control systems", "Mechanical flight control systems", "Electrical control circuits combined with computers"]
+    },
+    {
+      numb: 12,
+      question: "What does FBW stand for in aircraft systems?",
+      answer: "Fly-by-wire",
+      options: ["Fully balanced wing", "Flight balanced weight", "Fly-by-wire", "Force-balanced wing"]
+    },
+    {
+      numb: 13,
+      question: "Which aircraft was the first civil aircraft equipped with a (analogue) fly-by-wire system?",
+      answer: "The supersonic Concorde",
+      options: ["Airbus A320", "Boeing 777", "Airbus A380", "The supersonic Concorde"]
+    },
+    {
+      numb: 14,
+      question: "What type of architecture is the fly-by-wire system based on?",
+      answer: "Computer signal processing",
+      options: ["Analog signal processing", "Mechanical linkages", "Hydraulic actuation", "Computer signal processing"]
+    },
+    {
+      numb: 15,
+      question: "What type of data is sampled and processed in a fly-by-wire system?",
+      answer: "Pitch, roll, yaw rate, linear accelerations, angle of attack, sideslip, airspeed/Mach number, pressure, altitude, radio altimeter indications",
+      options: ["Fuel consumption data", "Passenger occupancy", "Pitch, roll, yaw rate, linear accelerations, angle of attack, sideslip, airspeed/Mach number, pressure, altitude, radio altimeter indications", "Cabin temperature"]
+    },
+    {
+      numb: 16,
+      question: "What is the purpose of redundancy in fly-by-wire systems?",
+      answer: "To restore the level of reliability of a mechanical or hydraulic system",
+      options: ["To increase weight", "To complicate the system", "To improve performance", "To restore the level of reliability of a mechanical or hydraulic system"]
+    },
+    {
+      numb: 17,
+      question: "What is the basic operation of a digital fly-by-wire system?",
+      answer: "Signals are processed by digital computers to determine appropriate command signals for flight controls",
+      options: ["Signals are processed by analog computers", "Signals are transmitted directly to flight controls", "Signals are manually interpreted by pilots", "Signals are processed by digital computers to determine appropriate command signals for flight controls"]
+    },
+    {
+      numb: 18,
+      question: "What is the advantage of digital fly-by-wire systems in terms of flexibility?",
+      answer: "They can receive input from any aircraft sensor",
+      options: ["They are resistant to electrical faults", "They require less maintenance", "They can receive input from any aircraft sensor", "They have better fuel efficiency"]
+    },
+    {
+      numb: 19,
+      question: "How do flight-control computers in fly-by-wire systems contribute to reduced pilot workload?",
+      answer: "By continuously flying the aircraft",
+      options: ["By providing complex manual controls", "By increasing manual intervention", "By continuously flying the aircraft", "By requiring constant adjustment"]
+    },
+    {
+      numb: 20,
+      question: "What does DFBW stand for in aircraft systems?",
+      answer: "Digital fly-by-wire",
+      options: ["Digital feedback wing", "Directly controlled wing", "Digital fly-by-wire", "Differential fly-by-wire"]
+
+
+    },
+  
+  
+    {
+      numb: 21,
+      question: "Which type of actuation implementation is NOT mentioned as a recent development?",
+      answer: "Mechanical actuation",
+      options: ["Direct drive actuation", "Fly-by-Wire (FBW) actuation", "Electro-Hydrostatic Actuator (EHA)", "Mechanical actuation"]
+    },
+    {
+      numb: 22,
+      question: "What is the primary difference between a digital fly-by-wire system and an analog system?",
+      answer: "Signal processing is done by digital computers",
+      options: ["Analog systems are more reliable", "Digital systems use hydraulic actuators", "Analog systems have more redundancy", "Signal processing is done by digital computers"]
+    },
+    {
+      numb: 23,
+      question: "What does a digital fly-by-wire system enable in terms of aircraft handling?",
+      answer: "Carefree handling",
+      options: ["Decreased maneuverability", "Increased weight", "Carefree handling", "Higher fuel consumption"]
+    },
+    {
+      numb: 24,
+      question: "What is the main advantage of fly-by-wire control systems in terms of aircraft safety?",
+      answer: "Improved redundancy",
+      options: ["Decreased weight", "Simplified maintenance", "Improved redundancy", "Reduced pilot workload"]
+    },
+    {
+      numb: 25,
+      question: "Which of the following is NOT a benefit of digital fly-by-wire systems?",
+      answer: "Increased dependency on critical electrical components",
+      options: ["Flexibility in flight control", "Enhanced stability", "Improved reliability", "Increased dependency on critical electrical components"]
+    },
+    {
+      numb: 26,
+      question: "Which aircraft was one of the first to use a digital fly-by-wire system in civil aviation?",
+      answer: "Airbus A320",
+      options: ["Boeing 747", "Airbus A380", "Boeing 737", "Airbus A320"]
+    },
+    {
+      numb: 27,
+      question: "What is the purpose of redundancy in flight-control systems?",
+      answer: "To enhance safety and reliability",
+      options: ["To decrease system complexity", "To reduce system weight", "To improve fuel efficiency", "To enhance safety and reliability"]
+    },
+    {
+      numb: 28,
+      question: "Which aspect of aircraft operation does a fly-by-wire system directly modify?",
+      answer: "Manual inputs of the pilot",
+      options: ["Fuel consumption", "Engine performance", "Airframe design", "Manual inputs of the pilot"]
+    },
+    {
+      numb: 29,
+      question: "What is the primary function of a fly-by-wire system?",
+      answer: "To modify pilot inputs in accordance with control parameters",
+      options: ["To control aircraft thrust", "To manage cabin temperature", "To adjust landing gear position", "To modify pilot inputs in accordance with control parameters"]
+    },
+    {
+      numb: 30,
+      question: "Which aircraft system enables inherently unstable aircraft to fly safely?",
+      answer: "Fly-by-wire",
+      options: ["Hydraulic system", "Mechanical system", "Trim tab system", "Fly-by-wire"]
+    },
+  
+  
+    {
+      numb: 31,
+      question: "What is the purpose of high-lift devices applied to the leading edge of an airfoil?",
+      answer: "To increase the critical angle of attack and delay the stall",
+      options: ["To decrease drag during takeoff", "To increase airspeed during descent", "To decrease lift during landing", "To increase the critical angle of attack and delay the stall"]
+    },
+    {
+      numb: 32,
+      question: "Which component is used to reduce lift and increase drag on an aircraft for roll control?",
+      answer: "Spoilers",
+      options: ["Flaps", "Ailerons", "Elevators", "Spoilers"]
+    },
+    {
+      numb: 33,
+      question: "How does an adjustable stabilizer differ from a movable tab on the trailing edge of the elevator?",
+      answer: "An adjustable stabilizer pivots about its rear spar, controlled by a jackscrew mounted on its leading edge",
+      options: ["An adjustable stabilizer is controlled by push-pull rods", "A movable tab on the elevator is controlled by a motor-driven system", "An adjustable stabilizer is cable-operated with a trim wheel", "An adjustable stabilizer pivots about its rear spar, controlled by a jackscrew mounted on its leading edge"]
+    },
+    {
+      numb: 34,
+      question: "Which type of flight control system uses power-operated hydraulic actuators?",
+      answer: "Hydraulic flight control systems",
+      options: ["Mechanical flight control systems", "Digital fly-by-wire systems", "Electrical control circuits combined with computers", "Hydraulic flight control systems"]
+    },
+    {
+      numb: 35,
+      question: "What is the primary purpose of an artificial feel system in powered control systems?",
+      answer: "To provide feedback to the pilot proportional to flight loads on the surfaces",
+      options: ["To increase resistance in control movements", "To reduce pilot workload", "To automate flight control inputs", "To provide feedback to the pilot proportional to flight loads on the surfaces"]
+    },
+    {
+      numb: 36,
+      question: "Which type of actuation implementation directly transmits signals between the operator and control actuators?",
+      answer: "Direct drive actuation",
+      options: ["Fly-by-Wire (FBW) actuation", "Electro-Hydrostatic Actuator (EHA)", "Electro-Mechanical Actuator (EMA)", "Direct drive actuation"]
+    },
+    {
+      numb: 37,
+      question: "What is the primary advantage of digital fly-by-wire systems over analog systems in terms of stability?",
+      answer: "Digital systems are less dependent on critical electrical components",
+      options: ["Digital systems provide faster response times", "Digital systems have more redundancy", "Digital systems are less susceptible to interference", "Digital systems are less dependent on critical electrical components"]
+    },
+    {
+      numb: 38,
+      question: "What is the primary function of a digital fly-by-wire flight control system?",
+      answer: "To modify manual inputs of the pilot based on control parameters",
+      options: ["To automate all flight control inputs", "To eliminate the need for pilots", "To maintain constant airspeed", "To modify manual inputs of the pilot based on control parameters"]
+    },
+    {
+      numb: 39,
+      question: "How do fly-by-wire systems contribute to reduced pilot workload?",
+      answer: "By continuously adjusting flight controls based on flight conditions",
+      options: ["By providing direct mechanical feedback", "By reducing the number of flight controls", "By automating all flight control inputs", "By continuously adjusting flight controls based on flight conditions"]
+    },
+    {
+      numb: 40,
+      question: "What is a notable benefit of fly-by-wire control systems in terms of maneuverability?",
+      answer: "They enable inherently unstable aircraft to fly safely",
+      options: ["They increase fuel efficiency", "They reduce aircraft weight", "They improve takeoff performance", "They enable inherently unstable aircraft to fly safely"]
+    }
+  
+];
+

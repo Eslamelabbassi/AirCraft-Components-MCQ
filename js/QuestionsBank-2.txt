@@ -1,0 +1,395 @@
+let questions=
+[
+ {
+        "numb": 81,
+        "question": "How many strokes make up the operating cycle of a four-stroke engine?",
+        "answer": "Four",
+        "options": ["Two", "Three", "Four", "Six"]
+    },
+    {
+        "numb": 82,
+        "question": "How does a turbocharger get its power?",
+        "answer": "From the exhaust stream turbine",
+        "options": ["From the engine-driven air compressor", "From the exhaust stream turbine", "From the propeller", "From the fuel injection system"]
+    },
+    {
+        "numb": 83,
+        "question": "What is the altitude limit at which an aircraft with normally aspirated engines reaches its service ceiling?",
+        "answer": "Where the manifold pressure is insufficient",
+        "options": ["Where the oxygen level is insufficient", "Where the manifold pressure is insufficient", "Where the engine power decreases", "Where the aircraft stalls"]
+    },
+    {
+        "numb": 84,
+        "question": "How do superchargers or turbochargers affect an aircraft's service ceiling?",
+        "answer": "They increase it",
+        "options": ["They decrease it", "They have no effect on it", "They increase it", "They vary depending on the altitude"]
+    },
+    {
+        "numb": 85,
+        "question": "What causes the oil temperature to rise?",
+        "answer": "Reduced oil quantity",
+        "options": ["Reduced oil quantity", "Increased airflow", "Rich mixture", "Decreased engine RPM"]
+    },
+    {
+        "numb": 86,
+        "question": "Where can operating characteristics such as expected performance be found?",
+        "answer": "Pilot Operating Handbook or Type Certificate Data Sheet",
+        "options": ["Fuel system manual", "Engine maintenance guide", "Pilot Operating Handbook or Type Certificate Data Sheet", "Airframe maintenance manual"]
+    },
+    {
+        "numb": 87,
+        "question": "What is the primary function of superchargers and turbochargers in aircraft engines?",
+        "answer": "To increase the density of intake air to boost horsepower",
+        "options": ["To regulate fuel flow", "To increase the density of intake air to boost horsepower", "To cool down the engine", "To reduce exhaust emissions"]
+    },
+    {
+        "numb": 88,
+        "question": "What is the key difference between superchargers and turbochargers?",
+        "answer": "Superchargers are engine-driven, while turbochargers are exhaust-driven.",
+        "options": ["Superchargers are exhaust-driven, while turbochargers are engine-driven.", "Superchargers are engine-driven, while turbochargers are exhaust-driven.", "Superchargers use fuel injection, while turbochargers use a carburetor.", "Superchargers are mechanical, while turbochargers are electrical."]
+    },
+    {
+        "numb": 89,
+        "question": "What is the purpose of a manifold pressure gauge in an aircraft with superchargers or turbochargers?",
+        "answer": "To monitor the pressure within the engine's intake manifold",
+        "options": ["To measure engine RPM", "To display fuel pressure", "To monitor the pressure within the engine's intake manifold", "To measure the exhaust temperature"]
+    },
+    {
+        "numb": 90,
+        "question": "How do superchargers or turbochargers affect an aircraft's service ceiling?",
+        "answer": "They increase the service ceiling.",
+        "options": ["They decrease the service ceiling.", "They have no effect on the service ceiling.", "They increase the service ceiling.", "They regulate the temperature of the cabin."]
+    },
+    {
+        "numb": 91,
+        "question": "What is the function of a tachometer in an aircraft engine?",
+        "answer": "To measure the engine's RPM",
+        "options": [
+            "To measure the engine's oil pressure",
+            "To measure the engine's RPM",
+            "To measure the fuel flow rate",
+            "To measure the altitude of the aircraft"
+        ]
+    },
+    {
+        "numb": 92,
+        "question": "What is the purpose of a Hobbs meter in an aircraft?",
+        "answer": "To record the time the engine is running",
+        "options": [
+            "To measure engine RPM",
+            "To measure the engine's oil pressure",
+            "To record the time the engine is running",
+            "To record the altitude of the aircraft"
+        ]
+    },
+    {
+        "numb": 93,
+        "question": "What is the function of a wastegate in turbocharged engines?",
+        "answer": "To prevent the exhaust pressure from exceeding the maximum allowable manifold pressure",
+        "options": [
+            "To regulate the flow of fuel into the engine",
+            "To divert exhaust gases to drive the compressor",
+            "To prevent the exhaust pressure from exceeding the maximum allowable manifold pressure",
+            "To increase the density of intake air"
+        ]
+    },
+    {
+        "numb": 94,
+        "question": "What is the primary advantage of gas turbine engines over traditional reciprocating engines?",
+        "answer": "They have a higher power-to-weight ratio.",
+        "options": [
+            "They are quieter.",
+            "They are cheaper to manufacture.",
+            "They have a higher power-to-weight ratio.",
+            "They have lower fuel consumption."
+        ]
+    },
+    {
+        "numb": 95,
+        "question": "What is \"tach time\" typically used for?",
+        "answer": "Recording engine run time for maintenance inspections",
+        "options": [
+            "Calculating fuel consumption",
+            "Measuring engine oil quantity",
+            "Recording engine run time for maintenance inspections",
+            "Monitoring engine temperature"
+        ]
+    },
+    {
+        "numb": 96,
+        "question": "What are the main components of an aircraft turbine engine?",
+        "answer": "Air inlet, compressor, combustion chambers, turbine section, exhaust",
+        "options": [
+            "Air inlet, carburetor, piston, exhaust pipe",
+            "Air inlet, compressor, combustion chambers, turbine section, exhaust",
+            "Carburetor, spark plug, crankshaft, propeller",
+            "Fuel injector, intake manifold, cylinder head, exhaust manifold"
+        ]
+    },
+    {
+        "numb": 97,
+        "question": "What is the relationship between heat and thrust in turbine engines?",
+        "answer": "More heat equals more thrust",
+        "options": [
+            "Heat decreases thrust",
+            "Heat has no effect on thrust",
+            "More heat equals more thrust",
+            "More heat equals less thrust"
+        ]
+    },
+    {
+        "numb": 98,
+        "question": "How many types of compressors are there for turbine engines?",
+        "answer": "Three",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ]
+    },
+    {
+        "numb": 99,
+        "question": "How does a centrifugal flow engine compress air?",
+        "answer": "By accelerating air outward perpendicular to the longitudinal axis of the machine",
+        "options": [
+            "By accelerating air inward perpendicular to the longitudinal axis of the machine",
+            "By accelerating air outward perpendicular to the longitudinal axis of the machine",
+            "By moving air parallel to the longitudinal axis",
+            "By rotating airfoils"
+        ]
+    },               
+    {
+        "numb": 100,
+        "question": "What produces thrust in an aircraft engine?",
+        "answer": "Accelerating exhaust gases",
+        "options": [
+            "Compressing air",
+            "Igniting fuel-air mixture",
+            "Accelerating exhaust gases",
+            "Cooling the engine"
+        ]
+    },
+    {
+        "numb": 101,
+        "question": "How many sections does a turbojet engine consist of?",
+        "answer": "Four",
+        "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ]
+    },
+    {
+        "numb": 102,
+        "question": "What drives the turbine in a turbojet engine?",
+        "answer": "Expanding air",
+        "options": [
+            "Combustion chamber",
+            "Expanding air",
+            "Inlet air",
+            "Exhaust gases"
+        ]
+    },
+    {
+        "numb": 103,
+        "question": "What are turbojet engines limited in?",
+        "answer": "Range and endurance",
+        "options": [
+            "Range and endurance",
+            "Power and speed",
+            "Altitude and temperature",
+            "Torque and RPM"
+        ]
+    },
+    {
+        "numb": 104,
+        "question": "What is the primary function of a turboprop engine?",
+        "answer": "Driving a propeller",
+        "options": [
+            "Generating electricity",
+            "Driving a propeller",
+            "Cooling the engine",
+            "Compressing air"
+        ]
+    },
+    {
+        "numb": 105,
+        "question": "What determines the type of aircraft turbine engine?",
+        "answer": "The path the air takes through the engine and how power is produced",
+        "options": [
+            "The size of the aircraft",
+            "The path the air takes through the engine and how power is produced",
+            "The manufacturer of the engine",
+            "The altitude at which the aircraft operates"
+        ]
+    },
+    {
+        "numb": 106,
+        "question": "What are the five major components of an aircraft turbine engine?",
+        "answer": "Inlet duct, compressor, combustion chamber, turbine, exhaust assembly",
+        "options": [
+            "Inlet duct, compressor, combustion chamber, turbine, exhaust pipe",
+            "Inlet duct, combustion chamber, gearbox, turbine, exhaust assembly",
+            "Inlet duct, compressor, combustion chamber, turbine, exhaust assembly",
+            "Inlet duct, radiator, turbine, compressor, exhaust assembly"
+        ]
+    },
+    {
+        "numb": 107,
+        "question": "How is compression of inlet air achieved in a centrifugal flow engine?",
+        "answer": "By accelerating air outward perpendicular to the longitudinal axis of the machine",
+        "options": [
+            "By accelerating air outward perpendicular to the longitudinal axis of the machine",
+            "By rotating and stationary airfoils moving air parallel to the longitudinal axis",
+            "By using both centrifugal and axial flow compressors",
+            "By accelerating air parallel to the longitudinal axis of the machine"
+        ]
+    },
+    {
+        "numb": 108,
+        "question": "What is the purpose of the power turbine in a turboprop engine?",
+        "answer": "To drive the reduction gear assembly",
+        "options": [
+            "To compress inlet air",
+            "To drive the reduction gear assembly",
+            "To cool the engine",
+            "To measure torsional deflection"
+        ]
+    },
+    {
+        "numb": 109,
+        "question": "What is the function of a torque-meter assembly in a turboprop engine?",
+        "answer": "To measure the horsepower produced by the engine",
+        "options": [
+            "To measure the horsepower produced by the engine",
+            "To control the airflow through the engine",
+            "To adjust the bypass airflow",
+            "To measure the temperature of the exhaust gases"
+        ]
+    },
+    {
+        "numb": 110,
+        "question": "How do turbofan engines differ from turbojet engines?",
+        "answer": "Turbofans have a shorter takeoff distance and produce more thrust during climb-out.",
+        "options": [
+            "Turbofans have a longer takeoff distance and produce less thrust during climb-out.",
+            "Turbofans have a shorter takeoff distance and produce more thrust during climb-out.",
+            "Turbofans have a longer takeoff distance and produce more thrust during climb-out.",
+            "Turbofans have a shorter takeoff distance and produce less thrust during climb-out."
+        ]
+    },
+    {
+        "numb": 111,
+        "question": "What is the primary advantage of high-bypass turbofan engines?",
+        "answer": "They are more efficient for commercial aircraft.",
+        "options": [
+            "They are more suitable for high-speed aircraft.",
+            "They are more efficient for commercial aircraft.",
+            "They produce less noise during takeoff.",
+            "They provide higher climb-out thrust."
+        ]
+    },
+    {
+        "numb": 112,
+        "question": "What does adjusting the bypass airflow in turbofan engines achieve?",
+        "answer": "It increases cruise speed and reduces fuel consumption.",
+        "options": [
+            "It increases cruise speed and reduces fuel consumption.",
+            "It decreases cruise speed and increases fuel consumption.",
+            "It increases engine cooling and reduces noise.",
+            "It decreases engine efficiency and increases emissions."
+        ]
+    },
+    {
+        "numb": 113,
+        "question": "Which type of runway is intended for aircraft using instrument approach procedures?",
+        "answer": "Instrument Runway",
+        "options": [
+            "Non-Precision Runway (NP)",
+            "Precision Runway (P)",
+            "Non-Instrument Runway (NI)",
+            "Instrument Runway"
+        ]
+    },
+    {
+        "numb": 114,
+        "question": "What equipment is used for horizontal navigation in the Instrument Landing System (ILS)?",
+        "answer": "Ground Localizer (LLZ) Antenna",
+        "options": [
+            "Ground Glide Path (GP) Antenna",
+            "Marker Beacons",
+            "Ground Localizer (LLZ) Antenna",
+            "Airborne LLZ antenna"
+        ]
+    },
+    {
+        "numb": 115,
+        "question": "What is the purpose of Marker Beacons in the ILS?",
+        "answer": "To enable the pilot to cross-check the aircraft's height",
+        "options": [
+            "To provide vertical navigation",
+            "To enable the pilot to cross-check the aircraft's height",
+            "To provide lateral guidance",
+            "To serve as visual aiming points for landing aircraft"
+        ]
+    },
+    {
+        "numb": 116,
+        "question": "What is the function of the ground localizer antenna in the Instrument Landing System (ILS)?",
+        "answer": "Providing guidance for aircraft to align with the runway centerline",
+        "options": [
+            "Transmitting UHF signals vertically",
+            "Transmitting VHF signals horizontally",
+            "Providing guidance for aircraft to descend",
+            "Providing guidance for aircraft to align with the runway centerline"
+        ]
+    },
+    {
+        "numb": 117,
+        "question": "Where are the localizer and glide path antennas located on the aircraft?",
+        "answer": "Nose",
+        "options": [
+            "Wings",
+            "Tail",
+            "Nose",
+            "Fuselage"
+        ]
+    },
+    {
+        "numb": 118,
+        "question": "How do the localizer and glide path antennas guide the pilot?",
+        "answer": "By energizing needles on the ILS indicator",
+        "options": [
+            "By activating the throttle",
+            "By providing audio instructions",
+            "By energizing needles on the ILS indicator",
+            "By displaying visual cues on the cockpit windshield"
+        ]
+    },
+    {
+        "numb": 119,
+        "question": "What is the function of the glide path antenna in the ILS?",
+        "answer": "Transmitting UHF signals vertically",
+        "options": [
+            "Transmitting VHF signals horizontally",
+            "Transmitting UHF signals vertically",
+            "Providing lateral guidance",
+            "Providing speed adjustments"
+        ]
+    },
+    {
+        "numb": 120,
+        "question": "What color is the cockpit indicator for the outer marker?",
+        "answer": "Blue",
+        "options": [
+            "Blue",
+            "Red",
+            "White",
+            "Green"
+        ]
+    }
+
+
+]
