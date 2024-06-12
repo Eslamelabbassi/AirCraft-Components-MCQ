@@ -1,7 +1,7 @@
 let questions=
 [
     {
-    "question": "1- What is the main function of the Attitude Determination and Control System (ADCS) of a satellite?",
+    "numb": "1- What is the main function of the Attitude Determination and Control System (ADCS) of a satellite?",
    "answer": "B) Controlling the orbit and attitude of the satellite",
     "options": [
     "A) Monitoring the status of sensors and subsystems", 
@@ -10,7 +10,7 @@ let questions=
    "D) Providing information on range and angles of the satellite"]
     },
     {
-    "question": "2- Which statement regarding the telemetry system is correct?", 
+    "numb": "2- Which statement regarding the telemetry system is correct?", 
    "answer": "B) It sends data derived from sensors on the satellite to the controlling earth station.", 
    " options": [ 
    "A) It controls the orbit and attitude of the satellite.", 
@@ -20,7 +20,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "3- What role does the tracking system play in satellite operation?", 
+    "numb": "3- What role does the tracking system play in satellite operation?", 
    "answer": "C) Providing information on the range and angles of the satellite", 
    "options": [
     "A) Controlling the orbit and attitude of the satellite",
@@ -30,7 +30,7 @@ let questions=
    ]
    }, 
    {
-    "question": "4- Which statement is true about communication satellites?", 
+    "numb": "4- Which statement is true about communication satellites?", 
    "answer": "D) They derive electrical power from solar cells.",
    "options": [ 
    "A) They derive electrical power from batteries.", 
@@ -40,7 +40,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "5- What is the purpose of solar cells on communication satellites?", 
+    "numb": "5- What is the purpose of solar cells on communication satellites?", 
    "answer": "C) To convert incident sunlight into electrical energy", 
    "options": [ 
    "A) To power the subsystems during launch", 
@@ -50,7 +50,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "6- How are large GEO satellites typically stabilized?",
+    "numb": "6- How are large GEO satellites typically stabilized?",
    "answer": "B) By 3-axis stabilization", 
     "options": [ 
    "A) By spin stabilization", 
@@ -60,7 +60,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "7- What is a characteristic of spin-stabilized satellites?", 
+    "numb": "7- What is a characteristic of spin-stabilized satellites?", 
    "answer": "A) They have cylindrical bodies covered in solar cells.", 
    "options": [ 
    "A) They have cylindrical bodies covered in solar cells.", 
@@ -70,7 +70,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "8- Why must the satellite carry batteries?", 
+    "numb": "8- Why must the satellite carry batteries?", 
    "answer": "C) To power the subsystems during launch and night", 
    "options": [ 
    "A) To convert sunlight into electrical energy", 
@@ -80,7 +80,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "9- What condition(s) must be satisfied for an orbit to be classified as geostationary?", 
+    "numb": "9- What condition(s) must be satisfied for an orbit to be classified as geostationary?", 
    "answer": "D) All of the above",
    "options": [ 
    "A) The orbit must be circular.", 
@@ -90,8 +90,8 @@ let questions=
    ] 
    }, 
    {
-    "question": "10- What distinguishes a geostationary orbit from a geosynchronous orbit?", 
-   "answer": "B) Period of rotation", 
+    "numb": "10- What distinguishes a geostationary orbit from a geosynchronous orbit?", 
+   "answer": "C) Inclination", 
    "options": [ 
    "A) Altitude", 
    "B) Period of rotation", 
@@ -100,7 +100,7 @@ let questions=
    ] 
    }, 
    {
-   "question": "11- What is the primary purpose of a polar orbit?", 
+   "numb": "11- What is the primary purpose of a polar orbit?", 
    "answer": "B) Weather forecasting", 
    "options": [
    "A) Domestic communication", 
@@ -110,7 +110,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "12- Which orbit is used for search and rescue satellite-aided tracking (SARSAT)?", 
+    "numb": "12- Which orbit is used for search and rescue satellite-aided tracking (SARSAT)?", 
    "answer": "C) Polar orbit", 
    "options": [
    "A) Geostationary orbit", 
@@ -120,7 +120,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "13- What distinguishes a prograde orbit from a retrograde orbit?", 
+    "numb": "13- What distinguishes a prograde orbit from a retrograde orbit?", 
    "answer": "C) Direction of satellite's movement", 
    "options": [
    "A) Altitude", 
@@ -130,7 +130,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "14- What is the key characteristic of a Sun-synchronous orbit?", 
+    "numb": "14- What is the key characteristic of a Sun-synchronous orbit?", 
    "answer": "A) It passes over any given point of the planet's surface at the same local mean solar time.", 
    "options": [
    "A) It passes over any given point of the planet's surface at the same local mean solar time.", 
@@ -140,7 +140,7 @@ let questions=
    ] 
    }, 
    {
-    "question": "15- What is one of the primary advantages of a Sun-synchronous orbit?", 
+    "numb": "15- What is one of the primary advantages of a Sun-synchronous orbit?", 
    "answer": "A) Continuous sunlight for solar panels", 
    "options": [ 
    "A) Continuous sunlight for solar panels", 
@@ -150,7 +150,7 @@ let questions=
    ] 
    }, 
    {
-   "question": "16- Which type of satellite orbit is commonly used for imaging, spy, and weather satellites?",
+   "numb": "16- Which type of satellite orbit is commonly used for imaging, spy, and weather satellites?",
    "answer": "D) Sun-synchronous orbit",
    "options": [ 
    "A) Geostationary orbit", 
@@ -160,7 +160,7 @@ let questions=
    ]
    },
    {
-   "question": "17- What is the typical distance of Low Earth Orbit (LEO) satellites from the Earth's surface? ",
+   "numb": "17- What is the typical distance of Low Earth Orbit (LEO) satellites from the Earth's surface? ",
    "answer": "A) Around 1,000 km",
    "options": [ 
    "A) Around 1,000 km", 
@@ -170,7 +170,7 @@ let questions=
    ]
    },
    {
-   "question": "18- What has historically been the primary use of Mid Earth Orbit (MEO) satellites? ",
+   "numb": "18- What has historically been the primary use of Mid Earth Orbit (MEO) satellites? ",
    "answer": "C) GPS and navigation applications",
    "options": [ 
    "A) Science and imaging ",
@@ -180,7 +180,7 @@ let questions=
    ]
    },
    {
-   "question": "19- What is the primary purpose of High-Throughput Satellite (HTS) MEO constellations? ",
+   "numb": "19- What is the primary purpose of High-Throughput Satellite (HTS) MEO constellations? ",
    "answer": "A) Low-latency, high-bandwidth data connectivity",
    "options": [ 
    "A) Low-latency, high-bandwidth data connectivity", 
@@ -190,8 +190,8 @@ let questions=
    ]
    },
    {
-   "question": "20- Which type of satellite orbit is densely populated with thousands of satellites primarily addressing science, imaging, and low-bandwidth telecommunications needs? ",
-   "answer": "A) Low Earth Orbit (LEO)",
+   "numb": "20- Which type of satellite orbit is densely populated with thousands of satellites primarily addressing science, imaging, and low-bandwidth telecommunications needs? ",
+   "answer": "A) Low Earth Orbit (LEO) ",
    "options": [ 
    "A) Low Earth Orbit (LEO) ",
    "B) Mid-Earth Orbit (MEO) ", 
@@ -200,7 +200,7 @@ let questions=
    ]
    },
    {
-   "question": "21- What is the next generation of HTS LEO satellites intended to serve? ",
+   "numb": "21- What is the next generation of HTS LEO satellites intended to serve? ",
    "answer": "C) Communication markets such as mass-consumer and enterprise broadband internet",
    "options": [ 
    "A) Science and imaging markets", 
@@ -210,7 +210,7 @@ let questions=
    ]
    },
    {
-   "question": "22- What do classical (Keplerian) orbital elements directly represent? ",
+   "numb": "22- What do classical (Keplerian) orbital elements directly represent? ",
    "answer": "B) Orbit shape, size, and orientation",
    "options": [ 
    "A) Orbital eccentricity", 
@@ -220,7 +220,7 @@ let questions=
    ]
    },
    {
-   "question": "23- According to Kepler's 1st Law, what shape is the orbit of each planet? ",
+   "numb": "23- According to Kepler's 1st Law, what shape is the orbit of each planet? ",
    "answer": "B) Ellipse",
    "options": [ 
    "A) Parabola", 
@@ -230,8 +230,8 @@ let questions=
    ]
    },
    {
-   "question": "24- What is the significance of cutting a cone with a plane at different angles in understanding orbits?",
-   "answer": "C) It reveals the shapes of orbits, known as conic sections.",
+   "numb": "24- What is the significance of cutting a cone with a plane at different angles in understanding orbits?",
+   "answer": "C) It reveals the shapes of orbits, known as conic sections. ",
    "options": [ 
    "A) It helps determine the eccentricity of the orbit. ", 
    "B) It provides insights into the orbit's orientation. ", 
@@ -240,7 +240,7 @@ let questions=
    ]
    },
    {
-   "question": "25- Which type of orbit has an eccentricity of 0? ",
+   "numb": "25- Which type of orbit has an eccentricity of 0? ",
    "answer": "A) Circular orbit",
    "options": [ 
    "A) Circular orbit", 
@@ -250,7 +250,7 @@ let questions=
    ]
    },
    {
-   "question": "26- What does a parabolic orbit with eccentricity e=1e=1 suggest about the object's origin?",
+   "numb": "26- What does a parabolic orbit with eccentricity e=1e=1 suggest about the object's origin?",
    "answer": "C) It is interstellar in origin.",
    "options": [ 
    "A) It originates from the Oort cloud.", 
@@ -260,8 +260,8 @@ let questions=
    ]
    },
    {
-   "question": "27- What is the significance of a geostationary orbit with an inclination of 0 degrees?",
-   "answer": "A) The spacecraft remains stationary over a specific location on Earth's equator.",
+   "numb": "27- What is the significance of a geostationary orbit with an inclination of 0 degrees?",
+   "answer": "A) The spacecraft remains stationary over a specific location on Earth's equator. ",
    "options": [ 
    "A) The spacecraft remains stationary over a specific location on Earth's equator. ", 
    "B) The orbit has a highly elliptical shape. ", 
@@ -270,8 +270,8 @@ let questions=
    ]
    },
    {
-   "question": "28- For what purpose are geostationary orbits primarily used? ",
-   "answer": "B) Communication satellites and weather satellites",
+   "numb": "28- For what purpose are geostationary orbits primarily used? ",
+   "answer": "B) Communication satellites and weather satellites. ",
    "options": [ 
    "A) Science missions. ", 
    "B) Communication satellites and weather satellites. ", 
@@ -280,7 +280,7 @@ let questions=
    ]
    },
    {
-   "question": "29- Which type of orbit is associated with the International Space Station (ISS)?",
+   "numb": "29- Which type of orbit is associated with the International Space Station (ISS)?",
    "answer": "C) Circular orbit",
    " options ": [
    "A) Elliptical orbit",
@@ -290,7 +290,7 @@ let questions=
    ]
    },
    {
-   "question": "30- What is the primary reason for performing orbital maneuvers after a satellite's initial launch?",
+   "numb": "30- What is the primary reason for performing orbital maneuvers after a satellite's initial launch?",
    "answer": "B) To achieve the desired final orbit",
    "options": [
    "A) To minimize the satellite's weight",
@@ -300,7 +300,7 @@ let questions=
    ]
    },
    {
-   "question": "31- Which of the following is a characteristic of single-impulse orbit adjustment?",
+   "numb": "31- Which of the following is a characteristic of single-impulse orbit adjustment?",
    "answer": "C) It is commonly used to circularize elliptic orbits.",
    "options": [
    "A) It requires multiple thrust impulses.",
@@ -310,7 +310,7 @@ let questions=
    ]
    },
    {
-   "question": "32- What is a principal characteristic of single-impulse orbital adjustment?",
+   "numb": "32- What is a principal characteristic of single-impulse orbital adjustment?",
    "answer": "A) The initial and final orbits will always have at least one common point.",
    "options": [
    "A) The initial and final orbits will always have at least one common point.",
@@ -320,7 +320,7 @@ let questions=
    ]
    },
    {
-   "question": "33- What was the original purpose of the Hohmann transfer between orbits?",
+   "numb": "33- What was the original purpose of the Hohmann transfer between orbits?",
    "answer": "A) To allow a transfer between two circular orbits with minimum fuel consumption",
    "options": [
    "A) To allow a transfer between two circular orbits with minimum fuel consumption",
@@ -330,7 +330,7 @@ let questions=
    ]
    },
    {
-   "question": "34- What is a requirement for the intermediate transfer orbit (TO) in a Hohmann transfer?",
+   "numb": "34- What is a requirement for the intermediate transfer orbit (TO) in a Hohmann transfer?",
    "answer": "A) Its perigee radius vector must equal the radius of the target orbit.",
    "options": [
    "A) Its perigee radius vector must equal the radius of the target orbit.",
@@ -340,7 +340,7 @@ let questions=
    ]
    },
    {
-   "question": "35- What is the primary difference between a Hohmann transfer and a Bi-Elliptical transfer?",
+   "numb": "35- What is the primary difference between a Hohmann transfer and a Bi-Elliptical transfer?",
    "answer": "A) The number of transfer orbits involved",
    "options": [
    "A) The number of transfer orbits involved",
@@ -350,7 +350,7 @@ let questions=
    ]
    },
    {
-   "question": "36- What is the ground track of a satellite?",
+   "numb": "36- What is the ground track of a satellite?",
    "answer": "B) The trace of sub-points over time",
    "options": [
    "A) The altitude of the satellite above Earth's surface",
@@ -360,7 +360,7 @@ let questions=
    ]
    },
    {
-   "question": "37- How does the Earth's rotation affect the ground track of a satellite?",
+   "numb": "37- How does the Earth's rotation affect the ground track of a satellite?",
    "answer": "C) It causes the ground track to shift towards the west.",
    "options": [
    "A) It causes the ground track to shift towards the east.",
@@ -370,7 +370,7 @@ let questions=
    ]
    },
    {
-   "question": "38- What effect does altitude have on the ground track of a satellite?",
+   "numb": "38- What effect does altitude have on the ground track of a satellite?",
    "answer": "A) Higher altitude leads to a smaller displacement of the ground track towards the west.",
    "options": [
    "A) Higher altitude leads to a smaller displacement of the ground track towards the west.",
@@ -380,8 +380,8 @@ let questions=
    ]
    },
    {
-   "question": "39- How does latitude affect the shift in the ground track of a satellite? ",
-   "answer": " C) The shift in the ground track is zero at the poles.",
+   "numb": "39- How does latitude affect the shift in the ground track of a satellite? ",
+   "answer": "C) The shift in the ground track is zero at the poles. ",
    "options": [
    "A) The shift in the ground track is zero at the equator. ", 
    "B) The shift in the ground track increases with increasing latitude. ", 
@@ -390,7 +390,7 @@ let questions=
    ]
    }, 
    {
-   "question": "40- What is nodal regression in satellite orbits caused by? ",
+   "numb": "40- What is nodal regression in satellite orbits caused by? ",
    "answer": "B) The Earth's oblate nature. ", 
    "options": [
    "A) The Earth's rotation. ", 
@@ -400,7 +400,7 @@ let questions=
    ]
    }, 
    {
-   "question": "41- How does the inclination of the orbit affect the ground track of a satellite?",
+   "numb": "41- How does the inclination of the orbit affect the ground track of a satellite?",
    "answer": "B) It determines the maximum latitude the ground track will reach. ", 
    "options": [
    "A) It determines the maximum altitude of the ground track. ", 
@@ -410,7 +410,7 @@ let questions=
    ]
    }, 
    {
-   "question": "42- What are perturbations in satellite motion? ",
+   "numb": "42- What are perturbations in satellite motion? ",
    "answer": "B) Disturbances in the regular motion of a celestial body. ", 
    "options": [
    "A) Changes in the satellite's altitude. ", 
@@ -420,7 +420,7 @@ let questions=
    ]
    }, 
    {
-   "question": "43- Which type of perturbation is caused by the Earth's asymmetrical mass? ",
+   "numb": "43- Which type of perturbation is caused by the Earth's asymmetrical mass? ",
    "answer": "B) Gravitational. ", 
    "options": [
    "A) Atmospheric drag. ", 
@@ -430,7 +430,7 @@ let questions=
    ]
    }, 
    {
-   "question": "44- What effect does atmospheric drag have on a satellite?",
+   "numb": "44- What effect does atmospheric drag have on a satellite?",
    "answer": "C) It reduces the satellite's energy. ", 
    "options": [
    "A) It increases the satellite's altitude. ", 
@@ -440,7 +440,7 @@ let questions=
    ]
    }, 
    {
-   "question": "45- What are stable points in Earth's gravitational field? ",
+   "numb": "45- What are stable points in Earth's gravitational field? ",
    "answer": "C) 75E and 105W. ", 
    "options": [
    "A) Himalayas and Rocky Mountains. ", 
@@ -450,7 +450,7 @@ let questions=
    ]
    }, 
    {
-   "question": "46- What effect does solar wind/radiation pressure have on a satellite? ",
+   "numb": "46- What effect does solar wind/radiation pressure have on a satellite? ",
    "answer": "B) It reduces the satellite's energy. ", 
    "options": [
    "A) It changes the satellite's altitude. ",
@@ -460,7 +460,7 @@ let questions=
    ]
    }, 
    {
-   "question": "47- What is the Doppler shift in satellite communication?",
+   "numb": "47- What is the Doppler shift in satellite communication?",
    "answer": "A) The variation in frequency of the satellite transmitter with respect to the receiver. ", 
    "options": [
    "A) The variation in frequency of the satellite transmitter with respect to the receiver. ", 
@@ -470,7 +470,7 @@ let questions=
    ]
    }, 
    {
-   "question": "48- When does a solar eclipse occur for a satellite?",
+   "numb": "48- When does a solar eclipse occur for a satellite?",
    "answer": "A) When the satellite's solar panels fail to receive sunlight due to an obstruction from a celestial body. ", 
    "options": [
    "A) When the satellite's solar panels fail to receive sunlight due to an obstruction from a celestial body. ", 
@@ -480,7 +480,7 @@ let questions=
    ]
    }, 
    {
-   "question": "49- What is Sun transit outrage?",
+   "numb": "49- What is Sun transit outrage?",
    "answer": "C) The temporary loss of communication due to the satellite passing directly between the Sun and Earth. ", 
    "options": [
    "A) The temporary shift of satellite traffic to other satellites during a solar eclipse. ", 
@@ -490,7 +490,7 @@ let questions=
    ]
    }, 
    {
-   "question": "50- What are launch windows in the context of satellite launches? ",
+   "numb": "50- What are launch windows in the context of satellite launches? ",
    "answer": "B) The period of time during which a satellite can be launched directly into a specific orbital plane from a specific launch site. ", 
    "options": [
    "A) The time period during which a satellite can be launched from any launch site. ", 
@@ -500,7 +500,7 @@ let questions=
    ]
    }, 
    {
-   "question": "51- How many launch opportunities are available per day if the latitude of the launch site is less than the orbit's inclination? ",
+   "numb": "51- How many launch opportunities are available per day if the latitude of the launch site is less than the orbit's inclination? ",
    "answer": "B) Two per day. ", 
    "options": [
    "A) One per day. ", 
@@ -510,7 +510,7 @@ let questions=
    ]
    }, 
    {
-   "question": "52- What is the result of launching a satellite at an azimuth of 90 degrees?",
+   "numb": "52- What is the result of launching a satellite at an azimuth of 90 degrees?",
    "answer": "A) The satellite will have a lower inclination. ", 
    "options": [
    "A) The satellite will have a lower inclination. ", 
@@ -520,7 +520,7 @@ let questions=
    ]
    },
    {
-   "question": "53- What is the purpose of the apogee maneuver in the launch sequence?", 
+   "numb": "53- What is the purpose of the apogee maneuver in the launch sequence?", 
    "answer": "C) To circularize the orbit at the geostationary altitude. ", 
    "options": [
    "A) To correct the orbit for its inclination. ", 
@@ -530,7 +530,7 @@ let questions=
    ]
    }, 
    {
-   "question": "54- What are the two main functions of the attitude and orbit control subsystem? ", 
+   "numb": "54- What are the two main functions of the attitude and orbit control subsystem? ", 
    "answer": "C) Controlling the satellite's orbital path and attitude. ", 
    "options": [
    "A) Controlling the satellite's weight and size. ", 
@@ -540,7 +540,7 @@ let questions=
    ]
    }, 
    {
-   "question": "55- What does the attitude of a satellite refer to? ", 
+   "numb": "55- What does the attitude of a satellite refer to? ", 
    "answer": "C) The satellite's orientation determined by its axes. ", 
    "options": [
    "A) The satellite's altitude above the Earth's surface. ", 
@@ -550,7 +550,7 @@ let questions=
    ]
    }, 
    {
-   "question": "56- What are the two common types of attitude control systems mentioned in the passage? ", 
+   "numb": "56- What are the two common types of attitude control systems mentioned in the passage? ", 
    "answer": "D) Spin stabilization and three-axis stabilization. ",
    "options": [
    "A) Spin stabilization and gravity gradient boom. ", 
@@ -560,7 +560,7 @@ let questions=
    ]
    }, 
    {
-   "question": "57- What is the purpose of spin-stabilized satellites during the launch phase? ", 
+   "numb": "57- What is the purpose of spin-stabilized satellites during the launch phase? ", 
    "answer": "C) To correct pitch using the de-spun antenna system. ", 
    "options": [
    "A) To maintain communication with the ground station. ", 
@@ -570,7 +570,7 @@ let questions=
    ]
    }, 
    {
-   "question": "58- How do active attitude control systems differ from passive systems? ", 
+   "numb": "58- How do active attitude control systems differ from passive systems? ", 
    "answer": "A) Active systems use sensors to make corrections based on measurements, while passive systems achieve equilibrium at the desired orientation. ", 
    "options": [
    "A) Active systems use sensors to make corrections based on measurements, while passive systems achieve equilibrium at the desired orientation. ", 
@@ -580,7 +580,7 @@ let questions=
    ]
    }, 
    {
-   "question": "59- Which sensors are used to determine the satellite's position with respect to reference directions? ", 
+   "numb": "59- Which sensors are used to determine the satellite's position with respect to reference directions? ", 
    "answer": "B) Earth sensors and sun/star sensors. ",
    "options": [
    "A) Velocity sensors. ", 
@@ -590,7 +590,7 @@ let questions=
    ]
    }, 
    {
-   "question": "60- What generates the correction torque in the attitude control system? ", 
+   "numb": "60- What generates the correction torque in the attitude control system? ", 
    "answer": "B) The difference between the current and desired attitudes. ", 
    "options": [
    "A) The satellite's velocity vector. ",
@@ -600,7 +600,7 @@ let questions=
    ]
    }, 
    {
-   "question": "61- What is the purpose of the orbit control subsystem? ", 
+   "numb": "61- What is the purpose of the orbit control subsystem? ", 
    "answer": "C) To compensate for perturbation forces. ", 
    "options": [
    "A) To monitor satellite health. ", 
@@ -609,7 +609,7 @@ let questions=
    "D) To track the satellite's position. "]
    },
    {
-   "question": "62- How often are station-keeping maneuvers conducted for geostationary satellites? ",
+   "numb": "62- How often are station-keeping maneuvers conducted for geostationary satellites? ",
    "answer": "C) Every two weeks. ", 
    "options": [
    "A) Every day. ", 
@@ -619,7 +619,7 @@ let questions=
    ]
    },
    {
-   "question": "63- Which type of orbit corrections require more fuel? ",
+   "numb": "63- Which type of orbit corrections require more fuel? ",
    "answer": "B) North-south corrections. ", 
    "options": [
    "A) East-west corrections. ", 
@@ -629,7 +629,7 @@ let questions=
    ]
    },
    {
-   "question": "64- What type of satellites utilize radial jets for corrections? ",
+   "numb": "64- What type of satellites utilize radial jets for corrections? ",
    "answer": "A) Three-axis stabilized satellites. ", 
    "options": [
    "A) Three-axis stabilized satellites. ", 
@@ -639,7 +639,7 @@ let questions=
    ]
    },
    {
-   "question": "65- What is the responsibility of the tracking component of the TT&C subsystem?",
+   "numb": "65- What is the responsibility of the tracking component of the TT&C subsystem?",
    "answer": "B) Determining satellite position and travel. ", 
    "options": [
    "A) Monitoring subsystem health. ", 
@@ -649,7 +649,7 @@ let questions=
    ]
    },
    {
-   "question": "66- What is the primary function of telemetry in the TT&C subsystem? ",
+   "numb": "66- What is the primary function of telemetry in the TT&C subsystem? ",
    "answer": "B) Monitoring satellite health. ", 
    "options": [
    "A) Executing control commands. ", 
@@ -659,7 +659,7 @@ let questions=
    ]
    },
    {
-   "question": "67- What role does the command element play in the TT&C subsystem?",
+   "numb": "67- What role does the command element play in the TT&C subsystem?",
    "answer": "D) Receiving and executing remote control commands. ",
    "options": [
    "A) Determining satellite position. ", 
@@ -669,7 +669,7 @@ let questions=
    ]
    },
    {
-   "question": "68- What is the main function of the Attitude Determination and Control Subsystem (ADCS)? ",
+   "numb": "68- What is the main function of the Attitude Determination and Control Subsystem (ADCS)? ",
    "answer": "C) Stabilizing and orienting the vehicle. ", 
    "options": [
    "A) Transmitting data to the ground station. ", 
@@ -679,7 +679,7 @@ let questions=
    ]
    },
    {
-   "question": "69- Which component of the ADCS senses the orientation of the spacecraft relative to reference points? ",
+   "numb": "69- Which component of the ADCS senses the orientation of the spacecraft relative to reference points? ",
    "answer": "C) Sensors. ", 
    "options": [
    "A) Actuators. ", 
@@ -689,7 +689,7 @@ let questions=
    ]
    },
    {
-   "question": "70- What is the purpose of spin stabilization? ",
+   "numb": "70- What is the purpose of spin stabilization? ",
    "answer": "B) To rotate the spacecraft about a vertical axis. ", 
    "options": [
    "A) To actively stabilize all three axes. ", 
@@ -699,7 +699,7 @@ let questions=
    ]
    },
    {
-   "question": "71- Which theorem allows the calculation of the moment of inertia around any axis from the moment of inertia around a parallel axis passing through the center of mass? ",
+   "numb": "71- Which theorem allows the calculation of the moment of inertia around any axis from the moment of inertia around a parallel axis passing through the center of mass? ",
    "answer": "A) Parallel-axis theorem. ", 
    "options": [
    "A) Parallel-axis theorem. ", 
@@ -709,7 +709,7 @@ let questions=
    ]
    },
    {
-   "question": "72- What is an advantage of 3-axis stabilization over spin stabilization? ",
+   "numb": "72- What is an advantage of 3-axis stabilization over spin stabilization? ",
    "answer": "C) Higher accuracy in pointing. ", 
    "options": [
    "A) Reduced complexity. ", 
@@ -719,7 +719,7 @@ let questions=
    ]
    },
    {
-   "question": "73- What type of sensor detects the boundary between deep space and the upper atmosphere using infrared technology? ",
+   "numb": "73- What type of sensor detects the boundary between deep space and the upper atmosphere using infrared technology? ",
    "answer": "b) Earth Sensor (horizon sensor). ", 
    "options": [
    "a) Sun Sensor. ", 
@@ -729,7 +729,7 @@ let questions=
    ]
    },
    {
-   "question": "74- Which type of sensor is used for spinning spacecraft or on a rotating mount? ",
+   "numb": "74- Which type of sensor is used for spinning spacecraft or on a rotating mount? ",
    "answer": "d) Scanner. ",
    "options": [
    "a) Sun Sensor. ", 
@@ -739,7 +739,7 @@ let questions=
    ]
    },
    {
-   "question": "75- What is the main function of the Inertial Measurement Unit (IMU)? ",
+   "numb": "75- What is the main function of the Inertial Measurement Unit (IMU)? ",
    "answer": "b) Measuring the rate of rotation of the spacecraft. ", 
    "options": [
    "a) Detecting the boundary between deep space and the upper atmosphere. ", 
@@ -749,7 +749,7 @@ let questions=
    ]
    },
    {
-   "question": "76- Which type of actuator requires a magnetic field model stored in the computer? ",
+   "numb": "76- Which type of actuator requires a magnetic field model stored in the computer? ",
    "answer": "c) Magnetometer. ", 
    "options": [
    "a) Gravity Gradient Booms. ", 
@@ -759,7 +759,7 @@ let questions=
    ]
    },
    {
-   "question": "77- What type of actuator is used for actively controlling the orientation of the spacecraft? ",
+   "numb": "77- What type of actuator is used for actively controlling the orientation of the spacecraft? ",
    "answer": "b) Thrusters. ", 
    "options": [
    "a) Passive. ", 
